@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="DB activity OMS1" AutomationStatus="Development" Created="11/1/2017 1:46:00 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="7b81cad9-6dfd-4571-9577-8709c9c940d5" LastUpdate="1/5/2018 2:38:50 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="2">
+  <Acts>
+    <GingerCore.Actions.ActDBValidation Active="True" AppName="OMS" ConfigOutputDS="False" Created="1/5/2018 6:01:39 AM" CreatedBy="AVDHOOTN" DBName="OMS1" DBValidationType="FreeSQL" Description="Check AP" EnableRetryMechanism="False" ExternalID="" Guid="84d5baf7-deb9-439b-a92e-b6c11f82e88e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="a855fe8e-1d3b-4121-8744-c7648e39213b" Platform="NA" RetryMechanismInterval="5" SQL="select status,action_type,order_unit_id from tborder_action where customer_id='{Var Name=BAN}' and action_type='PR'" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="1/5/2018 6:03:02 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="7f2690a3-43c1-495f-87d9-270f80737b39" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b7ef358c-4c43-4bc0-94cd-c59f3b8cff74#GUID_NAME#Set Status Passed" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="1/5/2018 6:03:15 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="c87d05c8-7e48-4850-a0db-00744ef54222" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="8df779c3-633a-4b77-b015-8ba9c4e69035#GUID_NAME#Check for exception" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:01:44 AM" CreatedBy="AVDHOOTN" Guid="e255bcbe-7516-4b58-9561-7fc50ec5bcd4" LastUpdate="1/1/0001 12:00:00 AM" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select status,action_type,order_unit_id from tborder_action where customer_id='{Var Name=BAN}' and action_type='PR'" Value="select status,action_type,order_unit_id from tborder_action where customer_id='{Var Name=BAN}' and action_type='PR'" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:01:44 AM" CreatedBy="AVDHOOTN" Guid="262a7a13-182a-42ab-9af9-b43ca39b74a9" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeSQL" Value="FreeSQL" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:01:44 AM" CreatedBy="AVDHOOTN" Guid="d81f8d92-af65-4f19-a9bc-f4849b74469d" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:01:44 AM" CreatedBy="AVDHOOTN" Guid="7e771422-0824-405e-b8d8-aeb50012459a" LastUpdate="1/1/0001 12:00:00 AM" Param="ImportFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="True" Value="True" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:01:44 AM" CreatedBy="AVDHOOTN" Guid="5ea32ca2-a29d-40c5-8cf4-b47604bbd43c" LastUpdate="1/1/0001 12:00:00 AM" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="1/5/2018 6:01:59 AM" CreatedBy="AVDHOOTN" Guid="67da23b5-468d-431e-8aa4-6bbdc636507e" LastUpdate="1/1/0001 12:00:00 AM" mExpected="DO" Param="STATUS" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" Version="0" />
+        <GingerCore.Actions.ActReturnValue Active="True" Created="1/5/2018 6:02:50 AM" CreatedBy="AVDHOOTN" Guid="5f4f7689-0201-4fea-b578-b77b0c3d5a27" LastUpdate="1/1/0001 12:00:00 AM" Param="ACTION_TYPE" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="OAID" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActDBValidation>
+    <GingerCore.Actions.ActDBValidation Active="True" AppName="OMS" ConfigOutputDS="False" Created="1/5/2018 6:08:31 AM" CreatedBy="AVDHOOTN" DBName="OMS1" DBValidationType="FreeSQL" Description="Check for exception" EnableRetryMechanism="False" ExternalID="" Guid="8df779c3-633a-4b77-b015-8ba9c4e69035" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="6a70c973-30ee-4c0b-bba3-92a4d9d81bd8" Platform="NA" RetryMechanismInterval="5" SQL="select count(*) from tbassign_exc where step_instance_id in (select step_instance_id from tbassignment_v where order_action_id='{Var Name=OAID}')" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="1/5/2018 6:09:21 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="0fb0696c-b288-4bc8-bf2b-2749b636b50b" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="84d5baf7-deb9-439b-a92e-b6c11f82e88e#GUID_NAME#Check AP" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="1/5/2018 6:09:36 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="3f083c4b-61c5-4c13-9242-09ebc3be810f" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b14bf20f-8ade-4e13-a7e5-5f26da26e633#GUID_NAME#Write Status to Excel" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:08:35 AM" CreatedBy="AVDHOOTN" Guid="300c43dd-2e74-4dee-a0c7-e3ea78b58aa4" LastUpdate="1/1/0001 12:00:00 AM" Param="SQL" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="select count(*) from tbassign_exc where step_instance_id in (select step_instance_id from tbassignment_v where order_action_id='{Var Name=OAID}')" Value="select count(*) from tbassign_exc where step_instance_id in (select step_instance_id from tbassignment_v where order_action_id='{Var Name=OAID}')" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:08:35 AM" CreatedBy="AVDHOOTN" Guid="3ae13d43-1b48-4e32-9e6d-049c611c6e13" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryTypeRadioButton" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="FreeSQL" Value="FreeSQL" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:08:35 AM" CreatedBy="AVDHOOTN" Guid="7c406f52-2750-4f35-9044-ae9ad4718cce" LastUpdate="1/1/0001 12:00:00 AM" Param="QueryFile" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:08:35 AM" CreatedBy="AVDHOOTN" Guid="6088ceab-b9be-4573-aabc-90bfcd9a5ba4" LastUpdate="1/1/0001 12:00:00 AM" Param="ImportFile" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="True" Value="True" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:08:36 AM" CreatedBy="AVDHOOTN" Guid="cb9e2148-9710-4108-93b8-b3ceb927eeba" LastUpdate="1/1/0001 12:00:00 AM" Param="CommitDB" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="1/5/2018 6:09:12 AM" CreatedBy="AVDHOOTN" Guid="19d65cae-ce34-4c09-8f70-a93ac70b2682" LastUpdate="1/1/0001 12:00:00 AM" mExpected="0" Param="COUNT(*)" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActDBValidation>
+    <GingerCore.Actions.ActSetVariableValue Active="True" ConfigOutputDS="False" Created="1/5/2018 6:16:08 AM" CreatedBy="AVDHOOTN" Description="Set Status Passed" EnableRetryMechanism="False" ExternalID="" Guid="b7ef358c-4c43-4bc0-94cd-c59f3b8cff74" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="afe452c0-682a-4361-bb56-d1e9a5402397" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" VariableName="Status" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:16:14 AM" CreatedBy="AVDHOOTN" Guid="076d4855-a741-48c8-8b38-8b424ce704dd" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Passed" Value="Passed" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSetVariableValue>
+    <GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="1/5/2018 6:10:10 AM" CreatedBy="AVDHOOTN" Description="Go to Write status activity" EnableRetryMechanism="False" ExternalID="" Guid="9f9eefa7-6093-42fe-b26c-65956acf6751" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="b3231aba-9baf-4cf4-9947-ca0cf2cb1a2f" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="1/5/2018 6:10:20 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="39c76f0e-bb00-477d-bbe5-bae7191fb320" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b14bf20f-8ade-4e13-a7e5-5f26da26e633#GUID_NAME#Write Status to Excel" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/5/2018 6:10:17 AM" CreatedBy="AVDHOOTN" Guid="bc0163ce-cfb4-4a56-8540-ee8033f588be" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActDummy>
+  </Acts>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="1/5/2018 6:02:39 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="f05f586e-7de2-42b3-9dc5-c580a524e0dc" InitialStringValue="PR" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="OAID" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="PR" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+    <GingerCore.Variables.VariableString Created="11/8/2017 5:18:56 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="bd10f5a0-c2d6-4391-b4be-2697432d03a3" InitialStringValue="336050188" LastUpdate="11/8/2017 7:45:27 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="BAN" ParentGuid="99d9f7e7-f881-4d12-9c44-0226116dac91" SetAsInputValue="True" SetAsOutputValue="True" Value="336050188" VarValChanged="False" Version="1">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

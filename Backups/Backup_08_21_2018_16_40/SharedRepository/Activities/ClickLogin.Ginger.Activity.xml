@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="ClickLogin" AutomationStatus="Development" Created="11/25/2016 11:54:27 AM" CreatedBy="SNJADHAV" Elapsed="5609" EnableActionsVariablesDependenciesControl="False" Guid="944d71bf-8888-4226-87de-daa05fb5387b" LastUpdate="11/25/2016 1:55:06 PM" LastUpdateBy="SNJADHAV" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/25/2016 11:55:02 AM" CreatedBy="SNJADHAV" Description="Switch Window - Login" EnableRetryMechanism="False" Guid="be49eebb-7f29-42e4-82a1-9a45a77e2b4e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Login" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="15" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/25/2016 11:55:28 AM" CreatedBy="SNJADHAV" Guid="79796361-06d8-43c4-96da-9bf94dd673ca" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="15" Value="15" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/25/2016 11:55:05 AM" CreatedBy="SNJADHAV" Description="Click Button Button_38" EnableRetryMechanism="False" Guid="32504136-ef9a-4ce1-bf6c-2f05d4b88fb3" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Button_38" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="2" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/25/2016 11:55:07 AM" CreatedBy="SNJADHAV" Guid="4150d3c9-b80a-4aac-972e-c819f59a0f27" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

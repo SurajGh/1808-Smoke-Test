@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GblCommitCancelOrder" AutomationStatus="Development" Created="11/17/2016 6:33:37 AM" CreatedBy="rampa" Description="Working. No Issues - Khyati " Elapsed="30111" EnableActionsVariablesDependenciesControl="False" Guid="0db4ab14-e7af-4043-b3bd-45bb88ab6629" LastUpdate="11/30/2016 11:11:55 AM" LastUpdateBy="vaishnak" Mandatory="False" ParentGuid="77566830-d087-4ace-8364-0d29c2564c86" PercentAutomated="100%" Status="Pass" TargetApplication="MyJavaApp" Version="2">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/17/2016 9:27:35 PM" CreatedBy="KHYATIS" Description="Switch Window - AT&amp;T CRM Customer Interaction Manager " EnableRetryMechanism="False" Guid="0e247003-4983-4b07-b2cd-e706b4efbcbb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 9:27:42 PM" CreatedBy="KHYATIS" Guid="9b4f1eb5-0fcd-4e4d-a86b-d213a58dc3e5" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="GetValue" Created="11/30/2016 7:33:33 AM" CreatedBy="vaishnak" Description="Get Cancel Confirmation Text" EnableRetryMechanism="False" Guid="58e4d46f-3d4a-44db-be07-30ecca157274" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/tabularInfo/tabGenInfo/pnlMessage/[[Name:lblGuiMessage][ClassName:javax.swing.JLabel]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/30/2016 7:33:46 AM" CreatedBy="vaishnak" Guid="2ffcbf94-1b18-4bc2-a183-b0b8c0278ceb" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="11/30/2016 7:34:33 AM" CreatedBy="vaishnak" Guid="ffca5cf9-993d-467e-a47b-71e3788adb1d" LastUpdate="1/1/0001 12:00:00 AM" mExpected="You have now completed the negotiation for this order.&#xA; Please click submit cancel to confirm cancel or withdraw cancel." Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/30/2016 7:35:40 AM" CreatedBy="vaishnak" Description="Submit Cancel" EnableRetryMechanism="False" Guid="383eb9e2-2ee3-4136-97db-9ef349b21e0d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlNavigationButtons/[[Name:btnNextStep][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/30/2016 7:36:00 AM" CreatedBy="vaishnak" Guid="3b5ee387-6fda-4719-bffb-49b4f4c89786" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Configure Installation for ATT" AutomationStatus="Development" Created="5/1/2018 5:42:28 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="65c7a61c-506d-42af-82dc-9d76b0743cf4" LastUpdate="5/2/2018 1:51:43 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="6c5d3948-9011-4d76-ba33-2b0f373dbaa1" PercentAutomated="100%" TargetApplication="Java Driver" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 5:44:16 PM" CreatedBy="AVDHOOTN" Description="Expand Installation section" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="ae5bb792-db8b-44e7-9abb-138d3aecf4ce" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='AT&amp;T Phone']/following::*[.='Installation']" MaxNumberOfRetries="2" ParentGuid="d87fd5e4-a1de-46e4-ae77-f98d83583515" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="15" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="5/1/2018 5:44:26 PM" CreatedBy="AVDHOOTN" Guid="b926db2f-7d79-476d-b1a4-8627d9ebadf5" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="5/1/2018 5:44:26 PM" CreatedBy="AVDHOOTN" Guid="ec18be46-f2fe-4f42-8637-83b262df2010" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="5/1/2018 5:44:26 PM" CreatedBy="AVDHOOTN" Guid="05c55224-6209-4d80-a1af-60b8420e29d6" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 5:44:16 PM" CreatedBy="AVDHOOTN" Description="Set Installation Type" EnableRetryMechanism="True" ExternalID="" GenElementAction="SelectFromDropDown" Guid="a750446b-e7fb-423c-bc70-f44c6b8d556a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//select/option[text()='Full Tech Install']/.." MaxNumberOfRetries="2" ParentGuid="5e6478b8-f392-4d87-a4af-cf49cb36d93b" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="20" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="5/1/2018 5:44:26 PM" CreatedBy="AVDHOOTN" Guid="b926db2f-7d79-476d-b1a4-8627d9ebadf5" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=Install_By}" Value="{Var Name=Install_By}" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="5/1/2018 5:44:26 PM" CreatedBy="AVDHOOTN" Guid="ec18be46-f2fe-4f42-8637-83b262df2010" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="5/1/2018 5:44:26 PM" CreatedBy="AVDHOOTN" Guid="05c55224-6209-4d80-a1af-60b8420e29d6" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+  </Acts>
+  <MappedErrorHandlers></MappedErrorHandlers>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="4/11/2018 9:34:31 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="acb982d9-d341-4dfd-88d4-27d2deb5eeb9" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Install_By" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Full Tech Install" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

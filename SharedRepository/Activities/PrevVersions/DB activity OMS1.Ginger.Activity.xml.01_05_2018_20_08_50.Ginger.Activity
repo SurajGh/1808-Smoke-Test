@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="DB activity OMS1" AutomationStatus="Development" Created="11/1/2017 1:46:00 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="7b81cad9-6dfd-4571-9577-8709c9c940d5" LastUpdate="11/8/2017 5:21:06 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+<Acts>
+<GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="11/1/2017 1:53:19 PM" CreatedBy="AVDHOOTN" Description="End flow" EnableRetryMechanism="False" ExternalID="" Guid="d2373e76-c392-49f2-9a9f-4b3a62465b3b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="49098c2b-b2bc-4226-9dc9-7e617993e551" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="11/1/2017 1:53:29 PM" CreatedBy="AVDHOOTN" FlowControlAction="StopBusinessFlow" Guid="d2cbe7a2-86d3-42bb-bca0-6910445571e4" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/1/2017 1:53:24 PM" CreatedBy="AVDHOOTN" Guid="d8092e80-0fe0-4821-a0fe-6e1fe87054be" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDummy>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

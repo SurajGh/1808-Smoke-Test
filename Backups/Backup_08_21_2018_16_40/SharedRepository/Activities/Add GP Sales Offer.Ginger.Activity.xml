@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Add GP Sales Offer" AutomationStatus="Development" Created="5/1/2018 5:44:04 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="5eec2177-76e9-4e72-a252-b97d4d3ca3f7" LastUpdate="5/2/2018 1:50:08 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Java Driver" Version="1">
+<Acts>
+<GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="5/1/2018 6:09:41 AM" CreatedBy="AVDHOOTN" Description="Check if to accept GP1" EnableRetryMechanism="False" ExternalID="" Guid="cd965ef2-f345-41bb-90ce-6a11b38d3a49" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="719573fc-7031-4e72-b401-57ce946e81fb" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=GP_to_accept1}&quot;=&quot;&quot;" Created="5/1/2018 6:10:12 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="4335e5c4-333e-41bd-ad35-2ea8893954e1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="f1b0bec3-3be7-4bd2-9a32-a3f11555dc63#GUID_NAME#Check if to accept GP2" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:09:45 AM" CreatedBy="AVDHOOTN" Guid="968758c3-8355-4f4b-9f04-ae5b182e3309" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDummy>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 5:45:09 AM" CreatedBy="AVDHOOTN" Description="Add GP1" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="232273a2-092d-4841-871c-c8f54b4ad97d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='{Var Name=Offer_to_accept}']/following::*[.='{Var Name=GP_to_accept1}']/preceding-sibling::input" MaxNumberOfRetries="2" ParentGuid="6cd8537b-84c8-4d10-ab4c-4f1158ce9cfb" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="e3247910-c915-42e6-8b8c-0d0a836394df" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="0154ec73-8a7d-4408-b734-b291d8decba3" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="c11fce9d-a389-4f1f-9363-81726edc882c" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="5/1/2018 6:09:41 AM" CreatedBy="AVDHOOTN" Description="Check if to accept GP2" EnableRetryMechanism="False" ExternalID="" Guid="f1b0bec3-3be7-4bd2-9a32-a3f11555dc63" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="910600c9-7408-4db2-a1aa-d70eb34d5ed1" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=GP_to_accept2}&quot;=&quot;&quot;" Created="5/1/2018 6:10:12 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="4335e5c4-333e-41bd-ad35-2ea8893954e1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="6a638e3d-9da8-485c-b05a-a7db196068ad#GUID_NAME#Check if to accept GP3" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:09:45 AM" CreatedBy="AVDHOOTN" Guid="968758c3-8355-4f4b-9f04-ae5b182e3309" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDummy>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 5:45:09 AM" CreatedBy="AVDHOOTN" Description="Add GP2" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="b7522b39-393e-4092-b8f0-7179822b13f5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='{Var Name=Offer_to_accept}']/following::*[.='{Var Name=GP_to_accept2}']/preceding-sibling::input" MaxNumberOfRetries="2" ParentGuid="4dd33ba8-a16f-49d1-b001-939020db6b89" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="e3247910-c915-42e6-8b8c-0d0a836394df" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="0154ec73-8a7d-4408-b734-b291d8decba3" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="c11fce9d-a389-4f1f-9363-81726edc882c" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="5/1/2018 6:09:41 AM" CreatedBy="AVDHOOTN" Description="Check if to accept GP3" EnableRetryMechanism="False" ExternalID="" Guid="6a638e3d-9da8-485c-b05a-a7db196068ad" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="b6a02b1b-2fea-4257-8fd8-6e9a436a8d0b" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=GP_to_accept3}&quot;=&quot;&quot;" Created="5/1/2018 6:10:12 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="4335e5c4-333e-41bd-ad35-2ea8893954e1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4b389b26-f75d-466d-ba2b-dda018d13270#GUID_NAME#Check if to accept GP4" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:09:45 AM" CreatedBy="AVDHOOTN" Guid="968758c3-8355-4f4b-9f04-ae5b182e3309" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDummy>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 5:45:09 AM" CreatedBy="AVDHOOTN" Description="Add GP3" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="8687f08a-34e8-4979-b96b-a0ff1919601e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='{Var Name=Offer_to_accept}']/following::*[.='{Var Name=GP_to_accept3}']/preceding-sibling::input" MaxNumberOfRetries="2" ParentGuid="c50b6860-4927-4cc7-aac2-b24c7a598fbf" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="e3247910-c915-42e6-8b8c-0d0a836394df" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="0154ec73-8a7d-4408-b734-b291d8decba3" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="c11fce9d-a389-4f1f-9363-81726edc882c" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="5/1/2018 6:09:41 AM" CreatedBy="AVDHOOTN" Description="Check if to accept GP4" EnableRetryMechanism="False" ExternalID="" Guid="4b389b26-f75d-466d-ba2b-dda018d13270" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="a4e5c297-cfce-41b0-9416-d7757c8fe577" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=GP_to_accept4}&quot;=&quot;&quot;" Created="5/1/2018 6:10:12 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="4335e5c4-333e-41bd-ad35-2ea8893954e1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="370593a8-bb75-473e-8dcc-b8e57c7561cf#GUID_NAME#Check if to accept GP5" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:09:45 AM" CreatedBy="AVDHOOTN" Guid="968758c3-8355-4f4b-9f04-ae5b182e3309" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDummy>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 5:45:09 AM" CreatedBy="AVDHOOTN" Description="Add GP4" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="31270f9a-7edc-47da-9e57-34f87a8224d9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='{Var Name=Offer_to_accept}']/following::*[.='{Var Name=GP_to_accept4}']/preceding-sibling::input" MaxNumberOfRetries="2" ParentGuid="b23a1e91-4267-4ab7-8d5c-e813a44fa992" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="e3247910-c915-42e6-8b8c-0d0a836394df" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="0154ec73-8a7d-4408-b734-b291d8decba3" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="c11fce9d-a389-4f1f-9363-81726edc882c" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="5/1/2018 6:09:41 AM" CreatedBy="AVDHOOTN" Description="Check if to accept GP5" EnableRetryMechanism="False" ExternalID="" Guid="370593a8-bb75-473e-8dcc-b8e57c7561cf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="d65d2c80-5a4c-4eee-987d-8e992dce4396" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=GP_to_accept5}&quot;=&quot;&quot;" Created="5/1/2018 6:10:12 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToNextActivity" Guid="4335e5c4-333e-41bd-ad35-2ea8893954e1" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:09:45 AM" CreatedBy="AVDHOOTN" Guid="968758c3-8355-4f4b-9f04-ae5b182e3309" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDummy>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 5:45:09 AM" CreatedBy="AVDHOOTN" Description="Add GP5" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="f2d0be96-150a-45e2-b0d8-b1956c77860a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='{Var Name=Offer_to_accept}']/following::*[.='{Var Name=GP_to_accept5}']/preceding-sibling::input" MaxNumberOfRetries="2" ParentGuid="1aaad5e8-9cd3-4e97-98cc-2af2a414d90d" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="e3247910-c915-42e6-8b8c-0d0a836394df" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="0154ec73-8a7d-4408-b734-b291d8decba3" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 5:45:12 AM" CreatedBy="AVDHOOTN" Guid="c11fce9d-a389-4f1f-9363-81726edc882c" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="5/1/2018 5:52:54 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="6a35c32f-2374-4505-88d0-31f1dfbd2096" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="GP_to_accept1" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="SPORTS PACK" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="4/11/2018 9:26:07 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="0c2ff984-d6fa-410f-a4d4-ad12ba967b91" InitialStringValue="DIRECTV Preferred Choice Offer" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Offer_to_accept" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="DIRECTV Xtra Offer" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="5/1/2018 5:53:11 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="e9973d31-fc25-4edd-90d1-75d987597ec4" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="GP_to_accept2" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="5/1/2018 5:53:18 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="06b8022a-7c43-4428-ba61-9305084bd5df" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="GP_to_accept3" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="5/1/2018 5:53:25 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="4d5c8e7f-a9fd-4391-a080-388582728432" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="GP_to_accept4" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+<GingerCore.Variables.VariableString Created="5/1/2018 5:53:32 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="90301f39-904f-42d4-82f0-6e526a87388c" InitialStringValue="" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="GP_to_accept5" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GblUpdateOrderAction_Cancel" AutomationStatus="Development" Created="11/17/2016 6:33:37 AM" CreatedBy="rampa" Description="Working. No Issues - Khyati " Elapsed="82" EnableActionsVariablesDependenciesControl="False" Guid="837eb2cf-2ad0-4877-941f-1ebe32b2abd6" LastUpdate="12/1/2016 10:41:45 AM" LastUpdateBy="SNJADHAV" Mandatory="False" ParentGuid="77566830-d087-4ace-8364-0d29c2564c86" PercentAutomated="100%" Status="Skipped" TargetApplication="MyJavaApp" Version="4">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/17/2016 9:27:35 PM" CreatedBy="KHYATIS" Description="Switch Window - AT&amp;T CRM Customer Interaction Manager " EnableRetryMechanism="False" Guid="0e247003-4983-4b07-b2cd-e706b4efbcbb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 9:27:42 PM" CreatedBy="KHYATIS" Guid="9b4f1eb5-0fcd-4e4d-a86b-d213a58dc3e5" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="IsEnabled" Created="11/17/2016 6:41:26 AM" CreatedBy="rampa" Description="Check if Activity Description cell is enabled" EnableRetryMechanism="False" Guid="3727c051-2bde-4246-814a-e9c1e040c2e9" LastUpdate="1/1/2001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/TabbedPane_1_2/Tabpage_General/pnlOrderAction/[[Name:cmbDescription][ClassName:com.amdocs.uif.widgets.ComboBoxNative$1]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="1" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Pass&quot;" Created="11/30/2016 10:00:42 AM" CreatedBy="vaishnak" FlowControlAction="GoToAction" Guid="5eef3fc8-c4ce-4361-a91d-ff4e3b1ca9e2" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="d11a96bc-7160-4334-b24b-e5ec290d6532#GUID_NAME#Smart Sync for Activity Desc field" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Fail&quot;" Created="11/30/2016 10:01:05 AM" CreatedBy="vaishnak" FlowControlAction="GoToAction" Guid="cdd7d16f-1779-4663-bb1b-53a18dd0b21a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="de1d11ae-802e-4c34-a549-398173cb93b2#GUID_NAME#Smart Sync Action Cancel Reason" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 6:41:57 AM" CreatedBy="rampa" Guid="fa4ef402-a9a6-41f6-9207-c8d700cbf073" LastUpdate="1/1/2001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActSmartSync Active="True" Created="11/17/2016 10:31:36 PM" CreatedBy="KHYATIS" Description="Smart Sync for Activity Desc field" EnableRetryMechanism="False" Guid="d11a96bc-7160-4334-b24b-e5ec290d6532" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/TabbedPane_1_2/Tabpage_General/pnlOrderAction/[[Name:cmbDescription][ClassName:com.amdocs.uif.widgets.ComboBoxNative$1]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" SmartSyncAction="WaitUntilDisplay" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="1" WaitTime="30" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Pass&quot;" Created="11/30/2016 10:04:05 AM" CreatedBy="vaishnak" FlowControlAction="GoToAction" Guid="865169a3-a1c8-48d3-8787-2e2876d7929b" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="f269fd1c-cac7-49f3-bdb1-5bb49ca23a8f#GUID_NAME#Set Activity Description" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 10:31:38 PM" CreatedBy="KHYATIS" Guid="6f225be4-84d9-4144-8199-a4858cdc4e7e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSmartSync>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Select" Created="11/17/2016 6:41:26 AM" CreatedBy="rampa" Description="Set Activity Description" EnableRetryMechanism="False" Guid="f269fd1c-cac7-49f3-bdb1-5bb49ca23a8f" LastUpdate="1/1/2001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/TabbedPane_1_2/Tabpage_General/pnlOrderAction/[[Name:cmbDescription][ClassName:com.amdocs.uif.widgets.ComboBoxNative$1]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="1" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Pass&quot;" Created="11/30/2016 10:02:26 AM" CreatedBy="vaishnak" FlowControlAction="GoToAction" Guid="ec242311-44ff-4ea4-b961-93c1a3a2c099" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b162d7fe-0848-40cd-99a5-ee660f300760#GUID_NAME#Click Button Next" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 6:41:57 AM" CreatedBy="rampa" Guid="fa4ef402-a9a6-41f6-9207-c8d700cbf073" LastUpdate="1/1/2001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Service_Change" Value="Service_Change" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActSmartSync Active="True" Created="11/30/2016 7:51:14 AM" CreatedBy="vaishnak" Description="Smart Sync Action Cancel Reason" EnableRetryMechanism="False" Guid="de1d11ae-802e-4c34-a549-398173cb93b2" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/TabbedPane_1_2/Tabpage_General/pnlOrderAction/[[Name:cmbReason][ClassName:com.amdocs.uif.widgets.ComboBoxNative$1]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" SmartSyncAction="WaitUntilDisplay" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="15" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Pass&quot;" Created="11/30/2016 10:04:31 AM" CreatedBy="vaishnak" FlowControlAction="GoToAction" Guid="7304739a-a347-4103-b08a-7ab26e54f0a8" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b2d38be3-152e-48c7-baf6-a3dcebfafb53#GUID_NAME#Set Cancellation Reason" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/30/2016 7:51:16 AM" CreatedBy="vaishnak" Guid="d24f1b9a-60d2-498f-81cd-8ffcda0df6c8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSmartSync>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Select" Created="11/30/2016 7:31:06 AM" CreatedBy="vaishnak" Description="Set Cancellation Reason" EnableRetryMechanism="False" Guid="b2d38be3-152e-48c7-baf6-a3dcebfafb53" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/TabbedPane_1_2/Tabpage_General/pnlOrderAction/[[Name:cmbReason][ClassName:com.amdocs.uif.widgets.ComboBoxNative$1]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Pass&quot;" Created="11/30/2016 10:02:54 AM" CreatedBy="vaishnak" FlowControlAction="GoToAction" Guid="3bcb8087-2027-43b8-8a7c-85c9aafacfd3" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b162d7fe-0848-40cd-99a5-ee660f300760#GUID_NAME#Click Button Next" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/30/2016 7:31:58 AM" CreatedBy="vaishnak" Guid="7b93e0e2-542a-4284-8f92-febc0d37d54b" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=GblCancelReason2}" Value="{Var Name=GblCancelReason2}" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/30/2016 7:32:15 AM" CreatedBy="vaishnak" Description="Click Button Next" EnableRetryMechanism="False" Guid="b162d7fe-0848-40cd-99a5-ee660f300760" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlNavigationButtons/[[Name:btnNextStep][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/30/2016 7:32:25 AM" CreatedBy="vaishnak" Guid="b8729874-d473-465f-8075-84a6fe92f9da" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="11/30/2016 10:56:58 AM" CreatedBy="vaishnak" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="0bfdffd4-d00d-4cf7-8427-22d6ea932f5f" InitialStringValue="Too Expensive" LastUpdate="1/1/0001 12:00:00 AM" Name="GblCancelReason2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Too Expensive" Version="0" />
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

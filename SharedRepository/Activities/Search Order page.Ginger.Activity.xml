@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Search Order page" AutomationStatus="Development" Created="11/1/2017 6:07:54 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="83b06de1-652e-4136-9a94-7a7a577c2f03" LastUpdate="11/1/2017 7:14:45 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Expand" ControlProperty="NA" Created="11/1/2017 6:08:22 AM" CreatedBy="AVDHOOTN" Description="Click on plus sign" EnableRetryMechanism="False" Guid="d4f6263c-1bbb-482d-84f0-46bbed9cee90" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="hsgrdSearchOrders/[name=&quot;colTitle&quot;]:[name=&quot;colTitle&quot;]:[path=&quot;Node:Provide(AT&amp;T Services) &quot;]]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 6:08:22 AM" CreatedBy="AVDHOOTN" Guid="dc11be0b-8bb3-4097-a829-55c903d05a04" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 6:08:23 AM" CreatedBy="AVDHOOTN" Description="Click hsgrdSearchOrders/Select:1" EnableRetryMechanism="False" Guid="6fea75cb-0305-4836-a4a8-2fa249bcb41a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="hsgrdSearchOrders/Select:1" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 6:08:23 AM" CreatedBy="AVDHOOTN" Guid="2d771d48-6082-41d5-87f3-f27c8e7a4eff" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 6:18:58 AM" CreatedBy="AVDHOOTN" Description="Click btnAmend" EnableRetryMechanism="False" Guid="92f8cdb5-5907-4962-a39c-ba781fc87bb6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnAmend" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 6:18:58 AM" CreatedBy="AVDHOOTN" Guid="ec49cf15-5c63-430a-b72e-575f34d166b8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

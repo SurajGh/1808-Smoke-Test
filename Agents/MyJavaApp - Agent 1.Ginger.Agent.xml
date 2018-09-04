@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Agent Active="False" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" DriverType="JavaDriver" Guid="4fb28bfe-53c5-4f2d-aa61-64474c1255f6" LastUpdate="2/19/2018 9:27:01 AM" LastUpdateBy="AVDHOOTN" Name="JavaDriver" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="5">
+  <DriverConfiguration>
+    <GingerCore.DriverConfigParam Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Description="Location of Agent - leave default or set the IP address of the remote machine" Guid="15457f0c-393a-406d-b774-e23b7c558fb6" LastUpdate="1/1/0001 12:00:00 AM" Parameter="JavaAgentHost" ParentGuid="00000000-0000-0000-0000-000000000000" Value="127.0.0.1" Version="0" />
+    <GingerCore.DriverConfigParam Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Description="JavaAgent Host Port - default is 8888" Guid="161efdd8-278f-4ccb-8ca3-c71b686ecd06" LastUpdate="1/1/0001 12:00:00 AM" Parameter="JavaAgentPort" ParentGuid="00000000-0000-0000-0000-000000000000" Value="8888" Version="0" />
+    <GingerCore.DriverConfigParam Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Description="Communication Timeout - default is 120 seconds" Guid="751a2018-56b3-49aa-b10c-00355e195b47" LastUpdate="1/1/0001 12:00:00 AM" Parameter="CommunicationTimout" ParentGuid="00000000-0000-0000-0000-000000000000" Value="120" Version="0" />
+    <GingerCore.DriverConfigParam Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Description="Command Timeout - default is 60 seconds" Guid="0e094c0d-dc25-4651-b6ff-cfc9e16cd72a" LastUpdate="1/1/0001 12:00:00 AM" Parameter="CommandTimeout" ParentGuid="00000000-0000-0000-0000-000000000000" Value="60" Version="0" />
+    <GingerCore.DriverConfigParam Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="3593943b-8041-40d3-be98-f7771a55a6c2" LastUpdate="1/1/0001 12:00:00 AM" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" Version="0" />
+  </DriverConfiguration>
+  <Tags></Tags>
+</GingerCore.Agent>

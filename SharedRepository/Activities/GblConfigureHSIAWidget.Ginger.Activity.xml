@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GblConfigureHSIAWidget" AutomationStatus="Development" Created="3/14/2017 6:19:35 AM" CreatedBy="s03027" EnableActionsVariablesDependenciesControl="False" Guid="75d7772f-f6a4-4b01-b488-01c2dc93c9dd" LastUpdate="3/14/2017 2:25:28 PM" LastUpdateBy="s03022" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="67%" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="3/14/2017 6:21:20 AM" CreatedBy="s03027" Description="Switch Window - AT&amp;T CRM Customer Interaction Manager" EnableRetryMechanism="False" Guid="d2deb895-8381-43f5-942a-8665e6e15fc4" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="50" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/14/2017 6:21:33 AM" CreatedBy="s03027" Guid="b85474aa-bb16-413d-879d-74db4c59de38" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.ActGenElement Active="False" Created="3/14/2017 6:21:15 AM" CreatedBy="s03027" Description="Add HSIA" EnableRetryMechanism="False" GenElementAction="Click" Guid="565cbf45-455c-4feb-b8cb-8adefde5a711" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//div[@id='NPCContent']/div[3]/div[2]/div/div[2]/div[4]/div/div/div/div[10]/button/span" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/14/2017 6:21:15 AM" CreatedBy="s03027" Guid="7d592c05-6032-4215-a313-e4fd4f185ae9" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" Created="3/14/2017 11:33:06 AM" CreatedBy="s03027" Description="Add HSIA" EnableRetryMechanism="False" GenElementAction="Click" Guid="772f6990-25a2-4f3f-804c-0c841844e4a4" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/html/body/div/div/div[3]/div/div/div[3]/div[2]/div/div/div/div/div/div[4]/div/div/div/div[2]/div[3]/div[2]/div/div[2]/div[4]/div/div/div/div[10]/button" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/14/2017 11:33:09 AM" CreatedBy="s03027" Guid="b705f629-5cb2-48ec-8d9a-50362fd54bb4" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

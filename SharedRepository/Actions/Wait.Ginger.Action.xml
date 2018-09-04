@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Actions.ActDummy Active="True" Created="4/21/2016 6:07:47 AM" CreatedBy="s02969" Description="Wait" EnableRetryMechanism="False" Guid="91f94696-da0c-4931-ac94-c63a8732d002" LastUpdate="9/12/2016 7:16:32 PM" LastUpdateBy="KHYATIS" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="1" Wait="19" WindowsToCapture="OnlyActiveWindow">
+  <FlowControls></FlowControls>
+  <InputValues>
+    <GingerCore.Actions.ActInputValue Created="4/21/2016 6:07:49 AM" CreatedBy="s02969" Guid="ea2a59ce-6fda-423d-a30d-63d0d81bc93a" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+  </InputValues>
+  <ReturnValues></ReturnValues>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Actions.ActDummy>

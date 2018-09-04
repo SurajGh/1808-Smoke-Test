@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="False" ActivityName="GblVerifyOrderSubmission_old" AutomationStatus="Development" Created="11/17/2016 5:15:52 AM" CreatedBy="komalku" Description="" Elapsed="106856" EnableActionsVariablesDependenciesControl="False" Guid="6d750d6a-163f-4de7-a871-15940d886cfb" LastUpdate="12/1/2016 10:41:47 AM" LastUpdateBy="SNJADHAV" Mandatory="False" ParentGuid="d3bb79db-45c8-4cae-90f1-bcbcfc3a42f3" PercentAutomated="100%" Status="Pass" TargetApplication="MyJavaApp" Version="3">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/17/2016 5:16:37 AM" CreatedBy="komalku" Description="Switch Window - AT&amp;T CRM Customer Interaction Manager : Release 33 - csrCRM0CT04cmem201 - Active Form System : CRM" EnableRetryMechanism="False" Guid="2f228815-0a2f-4f8b-9914-ee057075259f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager : " MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:56:13 AM" CreatedBy="komalku" Guid="828c9742-26ce-4dec-af24-15d10d90b7c4" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/17/2016 5:16:42 AM" CreatedBy="komalku" Description="Click 'go to Reasons'" EnableRetryMechanism="False" Guid="61be09d2-eac9-43e0-8715-21084d14b40e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="hyperlinkFlipPanel" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="2" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:17:11 AM" CreatedBy="komalku" Guid="8647e9a1-4c2f-4c26-aab0-0e42080883d2" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Select" Created="11/17/2016 5:18:11 AM" CreatedBy="komalku" Description="Set listReason1" EnableRetryMechanism="False" Guid="1041be59-9032-425f-b1b4-6b16e3b58be6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="listReason1" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="1" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:18:30 AM" CreatedBy="komalku" Guid="77675b94-1ed0-4c86-8f50-44b2a3db3d17" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Ordering" Value="Ordering" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Select" Created="11/17/2016 5:18:11 AM" CreatedBy="komalku" Description="Set listReason2" EnableRetryMechanism="False" Guid="8e8ac76c-99f9-483c-9b99-a9172d742d20" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="listReason2" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="True" Version="0" Wait="1" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:18:30 AM" CreatedBy="komalku" Guid="77675b94-1ed0-4c86-8f50-44b2a3db3d17" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Check Status" Value="Check Status" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActSmartSync Active="True" Created="11/17/2016 5:26:02 AM" CreatedBy="komalku" Description="Smart Sync Action" EnableRetryMechanism="False" Guid="06d63ba4-f39e-4333-9a8e-b5a8084cd7b3" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="adhocValue_colStatus" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" SmartSyncAction="WaitUntilDisplay" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="60" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:26:06 AM" CreatedBy="komalku" Guid="3929841e-285e-4bde-8457-742ce0198500" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSmartSync>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/17/2016 5:16:37 AM" CreatedBy="komalku" Description="Switch Window - AT&amp;T CRM Customer Interaction Manager : Release 33 - csrCRM0CT04cmem201 - Active Form System : CRM_Copy" EnableRetryMechanism="False" Guid="f7ad4625-aa63-497c-8498-090881b16abf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager : " MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:56:13 AM" CreatedBy="komalku" Guid="828c9742-26ce-4dec-af24-15d10d90b7c4" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.ActSetVariableValue Active="True" Created="11/18/2016 11:40:52 PM" CreatedBy="KHYATIS" Description="Initialize Order Submission Counter" EnableRetryMechanism="False" Guid="3bbc9f55-7fba-470c-b15a-2894b425d19b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" SetVariableValueOption="SetValue" StatusConverter="None" TakeScreenShot="False" VariableName="GblOrderSubmissionCounter" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=GblOrderSubmissionCounter}&quot; = &quot;25&quot;" Created="11/18/2016 11:42:28 PM" CreatedBy="KHYATIS" FlowControlAction="StopBusinessFlow" Guid="ccebfa66-58fd-4276-a5d3-151c9bc6cc06" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;DummyCondition&quot; = &quot;DummyCondition&quot;" Created="11/18/2016 11:43:07 PM" CreatedBy="KHYATIS" FlowControlAction="GoToAction" Guid="07b96eb8-3c60-4bfb-8deb-5769a092198a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4241bba1-fb7c-49b0-8aec-504aa534cf75#GUID_NAME#Click Button btnSearchNow" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/18/2016 11:40:55 PM" CreatedBy="KHYATIS" Guid="55bcd777-f3c4-4c25-addb-6ff8642ab65e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSetVariableValue>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="WinClick" Created="11/18/2016 5:27:25 AM" CreatedBy="komalku" Description="Click Button btnSearchNow" EnableRetryMechanism="False" Guid="4241bba1-fb7c-49b0-8aec-504aa534cf75" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.SearchOrdersImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlHsgrdOrderSearch/hsgrdSearchOrders/com.amdocs.uif.widgets.PanelNative$JXPanel[0]/com.amdocs.uif.widgets.PanelNative$JXPanel[0]/[[Name:btnSearchNow][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="10" WaitforIdle="Short" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/18/2016 5:27:42 AM" CreatedBy="komalku" Guid="634b6ab5-df87-4adf-8c57-7669716b2a5a" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActWindow Active="True" Created="11/17/2016 6:06:07 AM" CreatedBy="komalku" Description="Verify Message Box" EnableRetryMechanism="False" Guid="4f3c8782-ae9b-4993-bbb7-60b0137ff61a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Message" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="7" WindowActionType="IsExist" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=ACT_Msg}&quot; = &quot;True&quot;" Created="11/17/2016 6:07:44 AM" CreatedBy="komalku" FlowControlAction="GoToAction" Guid="de54a0ec-bb93-4b94-a844-acfe9e03b1bb" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="d5b08805-4ec4-438d-a7ec-a666cccbedda#GUID_NAME#Switch Window - Message" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=ACT_Msg}&quot; = &quot;False&quot;" Created="11/17/2016 6:09:15 AM" CreatedBy="komalku" FlowControlAction="GoToAction" Guid="2e3559fc-bb68-434a-aa9a-2479210f9a8c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="867652d4-f194-42f9-9e92-866b1c8bb6e1#GUID_NAME#Increement Order Submission Counter" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 6:06:11 AM" CreatedBy="komalku" Guid="621b4cb8-04fc-4ade-8e17-572376a237fd" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="11/17/2016 6:48:30 AM" CreatedBy="komalku" Guid="6c41d6d4-c1db-4f4e-9384-15e53dec60df" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ACT_Msg" Version="0" />
+      </ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActWindow>
+    <GingerCore.Actions.ActSetVariableValue Active="True" Created="11/18/2016 11:40:52 PM" CreatedBy="KHYATIS" Description="Increement Order Submission Counter" EnableRetryMechanism="False" Guid="867652d4-f194-42f9-9e92-866b1c8bb6e1" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" SetVariableValueOption="SetValue" StatusConverter="None" TakeScreenShot="False" VariableName="GblOrderSubmissionCounter" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=GblOrderSubmissionCounter}&quot; = &quot;25&quot;" Created="11/18/2016 11:42:28 PM" CreatedBy="KHYATIS" FlowControlAction="StopBusinessFlow" Guid="ccebfa66-58fd-4276-a5d3-151c9bc6cc06" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="&quot;{Var Name=IsCounterExceeded}&quot; " Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;DummyCondition&quot; = &quot;DummyCondition&quot;" Created="11/18/2016 11:43:07 PM" CreatedBy="KHYATIS" FlowControlAction="GoToAction" Guid="07b96eb8-3c60-4bfb-8deb-5769a092198a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4241bba1-fb7c-49b0-8aec-504aa534cf75#GUID_NAME#Click Button btnSearchNow" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/18/2016 11:40:55 PM" CreatedBy="KHYATIS" Guid="55bcd777-f3c4-4c25-addb-6ff8642ab65e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{VBS Eval={Var Name=GblOrderSubmissionCounter} + 1}" Value="{VBS Eval={Var Name=GblOrderSubmissionCounter} + 1}" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSetVariableValue>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/17/2016 6:05:16 AM" CreatedBy="komalku" Description="Switch Window - Message" EnableRetryMechanism="False" Guid="d5b08805-4ec4-438d-a7ec-a666cccbedda" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Message" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 6:05:27 AM" CreatedBy="komalku" Guid="fb2b84f7-0500-44ce-b6d4-959dbe6298e1" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="GetValue" Created="11/17/2016 6:07:20 AM" CreatedBy="komalku" Description="Get Message Text" EnableRetryMechanism="False" Guid="9034317c-0465-409a-a039-396f97b315cf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="OptionPane.label" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="True" Version="0" Wait="0" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 6:07:25 AM" CreatedBy="komalku" Guid="0b2b2cfa-bc45-4193-a759-a98f0126fa09" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="11/17/2016 6:08:25 AM" CreatedBy="komalku" Guid="5eca2afd-dad5-40fc-8f2a-0dd4a875cec6" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="ACT_MessageText" Version="0" />
+      </ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/17/2016 6:11:40 AM" CreatedBy="komalku" Description="Click Ok" EnableRetryMechanism="False" Guid="d5cf3d7a-2936-4710-a04e-7d32651f7e8f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="OptionPane.button" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="True" Version="0" Wait="1" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 6:11:47 AM" CreatedBy="komalku" Guid="7a8aa264-c795-4d63-895e-344bb399ffbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="11/17/2016 6:08:40 AM" CreatedBy="komalku" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="3b1368c4-1f84-4fff-8457-2d4503bb84b3" InitialStringValue="No records were found" LastUpdate="1/1/0001 12:00:00 AM" Name="ACT_MessageText" ParentGuid="6d750d6a-163f-4de7-a871-15940d886cfb" ParentName="GblVerifyOrderSubmission" ParentType="Activity" Value="No records were found" Version="0" />
+    <GingerCore.Variables.VariableString Created="11/17/2016 6:48:52 AM" CreatedBy="komalku" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="896bbd50-7ba3-4353-a6ab-03a40e538b81" InitialStringValue="False" LastUpdate="1/1/0001 12:00:00 AM" Name="ACT_Msg" ParentGuid="6d750d6a-163f-4de7-a871-15940d886cfb" ParentName="GblVerifyOrderSubmission" ParentType="Activity" Value="False" Version="0" />
+    <GingerCore.Variables.VariableString Created="11/18/2016 11:40:21 PM" CreatedBy="KHYATIS" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="f267c09d-b9c5-43fa-a477-3fbe02e8937c" InitialStringValue="0" LastUpdate="1/1/0001 12:00:00 AM" Name="GblOrderSubmissionCounter" ParentGuid="e7e14a49-51d7-45f3-b1fe-9575f3d8bbd8" ParentName="Reg_C08" ParentType="Business Flow" Value="0" Version="0" />
+    <GingerCore.Variables.VariableString Created="11/30/2016 6:28:25 AM" CreatedBy="SNJADHAV" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="816f201b-f3f8-4542-add6-a13f8dc5fc2f" InitialStringValue="IsCounterExceeded" LastUpdate="1/1/0001 12:00:00 AM" Name="IsCounterExceeded" ParentGuid="00000000-0000-0000-0000-000000000000" Value="IsCounterExceeded" Version="0" />
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Find Caller in CRM " AutomationStatus="Development" Created="11/3/2017 9:26:06 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="8be4e658-32b3-4161-b472-def92d7c38ff" LastUpdate="11/3/2017 10:21:33 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/3/2017 9:28:25 AM" CreatedBy="AVDHOOTN" Description="Click com.amdocs.crm.cim.desktop.ContextManagerToolbar:btnPhone" EnableRetryMechanism="False" Guid="edb2bab0-3825-4da6-8926-d1e204601b1a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="com.amdocs.crm.cim.desktop.ContextManagerToolbar:btnPhone" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/3/2017 9:28:25 AM" CreatedBy="AVDHOOTN" Guid="6ff23a9a-54c6-4fe4-8125-be17a6a08230" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="11/3/2017 9:28:25 AM" CreatedBy="AVDHOOTN" Description="Validate Control Property txtAccountId.Value" EnableRetryMechanism="True" Guid="2e512c3d-8957-4155-a90f-3e42ac8b7b59" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="txtAccountId" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="3" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/3/2017 9:28:25 AM" CreatedBy="AVDHOOTN" Guid="acb27de1-c53a-4a56-a129-6a3c4c6b7af7" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=BAN}" Value="{Var Name=BAN}" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/3/2017 9:28:25 AM" CreatedBy="AVDHOOTN" Description="Click btnSearchNow" EnableRetryMechanism="False" Guid="84a9ac61-1c20-49a4-b531-bc1befbab9c0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnSearchNow" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/3/2017 9:28:25 AM" CreatedBy="AVDHOOTN" Guid="bc318a50-e6f3-418a-b3ce-e9f16c66dabf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="11/3/2017 9:25:52 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="3d5c4cab-4539-4195-9811-f4f1a717e758" InitialStringValue="336024480" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="BAN" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="336024481" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

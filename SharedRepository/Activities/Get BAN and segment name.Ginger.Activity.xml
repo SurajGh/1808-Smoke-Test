@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Get BAN and segment name" AutomationStatus="Development" Created="11/1/2017 1:37:01 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="42d9ee57-5b48-4617-a8fc-2aa9c5ed952d" LastUpdate="11/1/2017 1:52:55 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Value" Created="11/1/2017 1:38:50 PM" CreatedBy="AVDHOOTN" Description="Get Segment Name" EnableRetryMechanism="False" Guid="dc508a28-490d-4d8c-850c-93def94f2cc0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="lblServerName" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 1:38:50 PM" CreatedBy="AVDHOOTN" Guid="ddf7b851-b08f-4c68-b220-4790f5204f47" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Value" Value="Value" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="11/1/2017 1:40:19 PM" CreatedBy="AVDHOOTN" Guid="95f64b4e-84f7-4253-a1c6-91260170741c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="Segment " Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Value" Created="11/1/2017 1:38:50 PM" CreatedBy="AVDHOOTN" Description="Get BAN" EnableRetryMechanism="False" Guid="82e85558-e021-418f-97ba-66bfa1fce5e5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="com.amdocs.crm.cim.findcaller.FindCallerToolbar:Subformpanel_1:ctxPnlSubPanel_2:lblBan" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 1:38:50 PM" CreatedBy="AVDHOOTN" Guid="5e28e381-8960-4055-bb73-671a4448a745" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Value" Value="Value" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="11/1/2017 1:40:33 PM" CreatedBy="AVDHOOTN" Guid="5fb7a4e9-3e9e-4fa3-a854-a31bb9083483" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="BAN" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="11/1/2017 1:39:31 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="a13ae9c5-1bb9-4733-9a56-2668c8762d32" InitialStringValue="oms1ct04_csr1.1" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Segment " ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="oms1ct04" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+    <GingerCore.Variables.VariableString Created="11/1/2017 1:39:56 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="3bc343f1-92e5-433b-9019-c9b0594e8443" InitialStringValue="336046170" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="BAN" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="336046170" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<Ginger.Run.RunSetConfig Created="2/20/2018 6:17:05 PM" CreatedBy="AVDHOOTN" Guid="e76d5e04-dd96-4caf-b48f-d7b6cc041539" LastUpdate="6/12/2018 7:46:46 AM" LastUpdateBy="s06125" Name="1802BAUSTTOOL" ParentGuid="00000000-0000-0000-0000-000000000000" RunModeParallel="True" RunWithAnalyzer="True" Version="20">
+<GingerRunners>
+<Ginger.Run.GingerRunner Created="3/8/2018 11:52:37 AM" CreatedBy="AVDHOOTN" FilterExecutionByTags="False" Guid="66d6e965-19c9-48d0-972e-4cc240f976e0" LastUpdate="1/1/0001 12:00:00 AM" Name="Runner 0" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" UseSpecificEnvironment="False" Version="0">
+<ApplicationAgents>
+<GingerCore.Platforms.ApplicationAgent AgentName="JavaDriver" AppName="MyJavaApp" Created="6/12/2018 7:46:42 AM" CreatedBy="s06125" Guid="9970ccf4-aea1-4a98-8514-8bba55870ba2" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.ApplicationAgent AgentName="ASCF" AppName="CRM" Created="6/12/2018 7:46:42 AM" CreatedBy="s06125" Guid="202765e3-2ea9-4795-b643-13b94b571d36" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.ApplicationAgent AgentName="IE" AppName="IE" Created="6/12/2018 7:46:42 AM" CreatedBy="s06125" Guid="6160554b-354e-403d-940f-38e21c239b73" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="8c0c3d3a-dd20-47bb-a1d4-c84992fce803" BusinessFlowIsActive="True" BusinessFlowName="BAU Smoke Test" Created="6/12/2018 7:46:46 AM" CreatedBy="s06125" Guid="4a2d4e4e-a856-4957-b33a-951ccf4d950c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+
+<FilterExecutionTags>
+</FilterExecutionTags>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+<Ginger.Run.RunSetActions.RunSetActionHTMLReport Active="False" Condition="AlwaysRun" Created="3/20/2018 9:51:28 AM" CreatedBy="s06125" Guid="69520eaf-ecb1-4d40-9902-c74aa10c8204" HTMLReportFolderName="A:\SmokeTestReports\" isHTMLReportFolderNameUsed="True" isHTMLReportPermanentFolderNameUsed="True" LastUpdate="1/1/0001 12:00:00 AM" Name="Produce HTML Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" selectedHTMLReportTemplateID="1" Version="0" />
+<Ginger.Run.RunSetActions.RunSetActionScript Active="False" Condition="AlwaysRun" Created="3/20/2018 9:51:47 AM" CreatedBy="s06125" Guid="41ecd193-e527-4287-aa18-388125cc3cf9" LastUpdate="1/1/0001 12:00:00 AM" Name="Execute Script" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" ScriptFileName="A:\HVD SETUP\MAILTEST\MAILTEST.VBS" Version="0" />
+</RunSetActions>
+
+<Tags>
+</Tags>
+</Ginger.Run.RunSetConfig>

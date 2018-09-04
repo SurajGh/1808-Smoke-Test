@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Variables.VariableString Created="10/27/2017 7:22:04 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="d9b2e5e8-5d9a-4291-b32f-46a1765c3583" InitialStringValue="75218" LastUpdate="11/1/2017 7:07:23 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="ZipCode" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="75218" VarValChanged="False" Version="1">
+  <Tags></Tags>
+</GingerCore.Variables.VariableString>

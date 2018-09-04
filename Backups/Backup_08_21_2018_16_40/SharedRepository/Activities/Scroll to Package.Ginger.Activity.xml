@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Scroll to Package" AutomationStatus="Development" Created="4/27/2018 2:21:50 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="9b676615-c513-4116-a229-c9dc0a388f53" LastUpdate="5/2/2018 1:50:04 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Java Driver" Version="1">
+<Acts>
+<GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="4/27/2018 2:22:04 AM" CreatedBy="AVDHOOTN" Description="Wait" EnableRetryMechanism="False" ExternalID="" Guid="954b0dcc-a54d-4f53-8cb0-a0d002101e93" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="8ffcf051-1107-4d37-9ef5-ea35aeb65df6" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="4/27/2018 2:22:11 AM" CreatedBy="AVDHOOTN" Guid="c360bbdf-6f78-4c57-9389-bd1b291168a6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActDummy>
+<GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="InitializeBrowser" Created="6/7/2017 5:46:51 AM" CreatedBy="s03023" Description="Initialize Broswer - JxBrowserBrowserComponent[0]" EnableRetryMechanism="True" ExternalID="" GotoURLRadioButton="Current" Guid="638a9f2e-f6e8-43fa-bfa2-bde8fc5dfe46" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.SalesOfferFramework/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/browser/com.amdocs.uif.widgets.browser.JxBrowserBrowserComponent[0]" MaxNumberOfRetries="15" ParentGuid="dc56c9cc-4472-426b-b2fd-075f08a593ab" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="6/7/2017 5:47:15 AM" CreatedBy="s03023" Guid="2b114a7f-a9af-4ffb-8153-97353e86fd6b" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="3/22/2018 5:39:40 AM" CreatedBy="AVDHOOTN" Guid="32de31f9-b85f-42cc-9a9c-3427e2d21779" LastUpdate="1/1/0001 12:00:00 AM" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Current" Value="Current" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActBrowserElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="4/27/2018 2:22:47 AM" CreatedBy="AVDHOOTN" Description="Scroll to package" EnableRetryMechanism="False" ExternalID="" GenElementAction="RunJavaScript" Guid="1caa457a-4f51-4fce-853a-4937bb461977" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.SalesOfferFramework/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/browser/com.amdocs.uif.widgets.browser.JxBrowserBrowserComponent[0]" MaxNumberOfRetries="2" ParentGuid="f9cb58c8-8116-40a6-ad93-acac191a01d4" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="4/27/2018 2:22:55 AM" CreatedBy="AVDHOOTN" Guid="230dc7fd-9acd-48e5-845e-77c39bbe8de8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="document.getElementsByClassName(&quot;saleOffersCategories stretch-height&quot;)[0].scrollTop+=350" Value="document.getElementsByClassName(&quot;saleOffersCategories stretch-height&quot;)[0].scrollTop+=350" Version="0" />
+<GingerCore.Actions.ActInputValue Created="4/27/2018 2:22:55 AM" CreatedBy="AVDHOOTN" Guid="10af815e-567d-408e-902d-535b21bf0a2c" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="4/27/2018 2:22:55 AM" CreatedBy="AVDHOOTN" Guid="b0d4d081-c2ea-4ddb-88df-f396c84ba86d" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 4:51:33 AM" CreatedBy="AVDHOOTN" Description="Expand package" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="62f15fca-60e0-4dd0-8996-209fda8f1000" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='{Var Name=Offer_to_accept}']/following::*[.='Television']" MaxNumberOfRetries="2" ParentGuid="d09fdbd1-f662-4cf2-8237-d8cb439e003a" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="5/1/2018 4:52:30 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="a1c3cd1e-6400-4dc5-8510-26a503c4d096" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1caa457a-4f51-4fce-853a-4937bb461977#GUID_NAME#Scroll to package" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 4:51:41 AM" CreatedBy="AVDHOOTN" Guid="edd54380-4c85-4fba-9cc1-133757459403" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 4:51:41 AM" CreatedBy="AVDHOOTN" Guid="ea65fe82-5067-459c-a3b4-47103bae1e1f" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 4:51:41 AM" CreatedBy="AVDHOOTN" Guid="f3fe88f4-9170-4fe7-942b-330c28ad77a2" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+<GingerCore.Variables.VariableString Created="4/11/2018 9:26:07 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="0c2ff984-d6fa-410f-a4d4-ad12ba967b91" InitialStringValue="DIRECTV Preferred Choice Offer" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Offer_to_accept" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="DIRECTV Xtra Offer" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

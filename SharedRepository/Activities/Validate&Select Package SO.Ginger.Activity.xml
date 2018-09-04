@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Validate&amp;Select Package SO" AutomationStatus="Development" Created="2/23/2017 6:38:47 AM" CreatedBy="s03024" EnableActionsVariablesDependenciesControl="False" ExternalID="" Guid="b08d75f2-03ce-4398-a57f-29286ebd3b5a" LastUpdate="2/17/2018 4:06:08 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="50b5539e-c8b2-43d3-96b5-d5fd9a07587c" PercentAutomated="82%" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="2/23/2017 6:54:57 AM" CreatedBy="s03024" Description="Wait" EnableRetryMechanism="True" Guid="ed3db6a9-cf70-419b-807b-95439a11d9da" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="10" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="2/23/2017 6:55:15 AM" CreatedBy="s03024" Guid="5cd94e3a-c5d5-420b-9d65-4728695858e7" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActDummy>
+    <GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="InitializeBrowser" Created="8/17/2017 4:32:46 AM" CreatedBy="s02974" Description="Initialize Browser - JxBrowserBrowserComponent[0]" EnableRetryMechanism="False" Guid="a88c9bec-ffdc-47c7-8284-f63f78d3932f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.SalesOfferFramework/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/browser/com.amdocs.uif.widgets.browser.JxBrowserBrowserComponent[0]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="8/17/2017 4:32:52 AM" CreatedBy="s02974" Guid="919c8fd1-d176-41ed-acf1-6884983909be" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActBrowserElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="6/28/2017 11:29:17 AM" CreatedBy="s03027" Description="Scroll to element" EnableRetryMechanism="False" ExternalID="" GenElementAction="RunJavaScript" Guid="4a149073-ee45-4a53-bac1-f12d53d58f97" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.SalesOfferFramework/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/browser/com.amdocs.uif.widgets.browser.JxBrowserBrowserComponent[0]" MaxNumberOfRetries="0" ParentGuid="95bd8989-caa7-48f5-9a9c-074078be14ca" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="6/28/2017 11:29:25 AM" CreatedBy="s03027" Guid="7f8a7583-bea7-4245-94ac-5cb3f7c21e65" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="document.getElementsByClassName(&quot;saleOffersCategories stretch-height&quot;)[0].scrollTop+=1000" Value="document.getElementsByClassName(&quot;saleOffersCategories stretch-height&quot;)[0].scrollTop+=1000" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/9/2017 2:59:53 AM" CreatedBy="s02934" Guid="379eb352-9076-4f4b-bcd7-4a86ee76dc4d" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/9/2017 2:59:53 AM" CreatedBy="s02934" Guid="a9ab15fb-d657-4bd2-a194-8005002e8089" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="False" ConfigOutputDS="False" Created="6/28/2017 11:29:17 AM" CreatedBy="s03027" Description="Scroll to element_Copy" EnableRetryMechanism="False" ExternalID="" GenElementAction="ScrollToElement" Guid="5778dade-1394-4243-bcf5-bd275a01e69d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.SalesOfferFramework/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/browser/com.amdocs.uif.widgets.browser.JxBrowserBrowserComponent[0]" MaxNumberOfRetries="0" ParentGuid="5186fa0f-f897-4fa8-b69c-1b5080bace00" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="6/28/2017 11:29:25 AM" CreatedBy="s03027" Guid="7f8a7583-bea7-4245-94ac-5cb3f7c21e65" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="document.getElementsByClassName(&quot;saleOffersCategories stretch-height&quot;)[0].scrollTop-=5000" Value="document.getElementsByClassName(&quot;saleOffersCategories stretch-height&quot;)[0].scrollTop-=5000" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/9/2017 2:59:53 AM" CreatedBy="s02934" Guid="379eb352-9076-4f4b-bcd7-4a86ee76dc4d" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/9/2017 2:59:53 AM" CreatedBy="s02934" Guid="a9ab15fb-d657-4bd2-a194-8005002e8089" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Description="Expand Preffered Choice" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="36245b4e-2eff-482c-acdd-601c5e9479a9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='DIRECTV Preferred Choice Offer']//ancestor::*[@class='saleOfferItemMain']//*[.='Television']" MaxNumberOfRetries="100" ParentGuid="79dadb00-b384-4e2a-9903-9cd3a62dbf0f" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Guid="c182481b-866d-41b2-b2ad-647b86d24cbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="afae5b9e-d8e5-499a-b6a4-b606103ece24" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="ce137f48-59c4-476b-b72d-852845af7650" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Description="Verify International add on is required_Copy" EnableRetryMechanism="False" ExternalID="" GenElementAction="GetValue" Guid="dde44c88-04b7-481c-bcb6-2b9944ecd11b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='DIRECTV Preferred Choice Offer']//ancestor::*[@class='saleOfferItem']//*[.='An International Add On is required']" MaxNumberOfRetries="100" ParentGuid="54fd047f-adce-4634-af8f-10273a854361" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Guid="c182481b-866d-41b2-b2ad-647b86d24cbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="afae5b9e-d8e5-499a-b6a4-b606103ece24" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="ce137f48-59c4-476b-b72d-852845af7650" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="11/17/2017 5:55:55 AM" CreatedBy="s02968" Guid="3584fd98-d4d1-41b5-ae68-f8823d261778" LastUpdate="1/1/0001 12:00:00 AM" mExpected="An International Add On is required" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Description="Collapse Preffered Choice" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="d55237de-5dd1-43c1-993a-873c52bd8c6d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='DIRECTV Preferred Choice Offer']//ancestor::*[@class='saleOfferItemMain']//*[.='Television']" MaxNumberOfRetries="100" ParentGuid="457e1744-8a38-4c56-b185-3978aa49dd26" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Guid="c182481b-866d-41b2-b2ad-647b86d24cbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="afae5b9e-d8e5-499a-b6a4-b606103ece24" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="ce137f48-59c4-476b-b72d-852845af7650" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Description="Expand Basic Choice" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="427f2b96-d224-4310-b874-059d8a1643ac" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='DIRECTV Basic Choice Offer']//ancestor::*[@class='saleOfferItemMain']//*[.='Television']" MaxNumberOfRetries="100" ParentGuid="a073e344-7ef9-47e2-b6f2-4f3b0ce43c55" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Guid="c182481b-866d-41b2-b2ad-647b86d24cbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="afae5b9e-d8e5-499a-b6a4-b606103ece24" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="ce137f48-59c4-476b-b72d-852845af7650" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Description="Verify International add on is required" EnableRetryMechanism="True" ExternalID="" GenElementAction="GetValue" Guid="a10bb9be-95e8-4027-bfe7-8c06a7c6e085" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='DIRECTV Basic Choice Offer']//ancestor::*[@class='saleOfferItem']//*[.='An International Add On is required']" MaxNumberOfRetries="5" ParentGuid="29cae9ac-d273-4c07-b4d5-112bd316b7d2" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Guid="c182481b-866d-41b2-b2ad-647b86d24cbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="afae5b9e-d8e5-499a-b6a4-b606103ece24" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="ce137f48-59c4-476b-b72d-852845af7650" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="11/17/2017 5:55:55 AM" CreatedBy="s02968" Guid="3584fd98-d4d1-41b5-ae68-f8823d261778" LastUpdate="1/1/0001 12:00:00 AM" mExpected="An International Add On is required" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" StoreToValue="" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="False" ConfigOutputDS="False" Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Description="Collapse Basic Choice" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="7ba18448-4a92-4274-a94b-6fcf6203c72a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='DIRECTV Basic Choice Offer']//ancestor::*[@class='saleOfferItemMain']//*[.='Television']" MaxNumberOfRetries="100" ParentGuid="39a58adc-ee83-487a-9c06-ea7d04ab9880" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Guid="c182481b-866d-41b2-b2ad-647b86d24cbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="afae5b9e-d8e5-499a-b6a4-b606103ece24" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="ce137f48-59c4-476b-b72d-852845af7650" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Description="Click Choice Accept Package" EnableRetryMechanism="False" GenElementAction="Click" Guid="892d0e10-b511-4bf9-a8f8-84fdf32b812d" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='DIRECTV Choice Offer']//ancestor::*[@class='saleOfferItemMain']//*[@title='Accept']" MaxNumberOfRetries="100" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/28/2017 12:58:00 PM" CreatedBy="s02933" Guid="c182481b-866d-41b2-b2ad-647b86d24cbf" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="afae5b9e-d8e5-499a-b6a4-b606103ece24" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/26/2017 7:20:23 AM" CreatedBy="s02938" Guid="ce137f48-59c4-476b-b72d-852845af7650" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+  </Acts>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

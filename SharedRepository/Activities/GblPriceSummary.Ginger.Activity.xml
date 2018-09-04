@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GblPriceSummary" AutomationStatus="Development" Created="11/18/2016 10:31:40 AM" CreatedBy="SNJADHAV" Elapsed="543" EnableActionsVariablesDependenciesControl="False" Guid="0cb386b4-7ab6-4e5a-be48-da142a97b5ef" LastUpdate="11/18/2016 10:41:06 AM" LastUpdateBy="SNJADHAV" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Toggle" Created="11/18/2016 10:32:18 AM" CreatedBy="SNJADHAV" Description="Toggle Checkbox chkShowDetails" EnableRetryMechanism="False" Guid="8a27514b-ccba-4e67-9b98-023b4275498a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/tpPaneSubmitOrderAction/tabOrderSummary/javax.swing.JViewport[0]/tabOrderSummary/subFormViewOrderActionDetails/root/pnlContain/pnlGridHeader/pnlChkExpand/[[Name:chkShowDetails][ClassName:javax.swing.JCheckBox]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Short" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/18/2016 10:32:32 AM" CreatedBy="SNJADHAV" Guid="35ff7569-3911-4292-a48e-5c4669d1dede" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="true" Value="true" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/18/2016 10:33:22 AM" CreatedBy="SNJADHAV" Description="Click Button btnNextStep" EnableRetryMechanism="False" Guid="a727dc50-7c39-4301-8829-eebf74e8a9a4" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlNavigationButtons/[[Name:btnNextStep][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/18/2016 10:33:27 AM" CreatedBy="SNJADHAV" Guid="5f3d692d-8c94-4e62-b2dd-38190acb5231" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

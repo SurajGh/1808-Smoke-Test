@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="DB decision" AutomationStatus="Development" Created="11/1/2017 1:40:47 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="970f06e8-79af-4e03-9782-63c3b2c5a82c" LastUpdate="1/5/2018 10:43:08 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="2">
+  <Acts>
+    <GingerCore.Actions.ActSetVariableValue Active="True" ConfigOutputDS="False" Created="11/1/2017 1:41:32 PM" CreatedBy="AVDHOOTN" Description="Set Variable Action" EnableRetryMechanism="False" ExternalID="" Guid="7f580e34-6bda-4370-905c-429af7a88046" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="0d3306dc-f154-443a-b562-2638c375e92f" Platform="NA" RetryMechanismInterval="5" SetVariableValueOption="SetValue" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" VariableName="Segment " Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 1:41:37 PM" CreatedBy="AVDHOOTN" Guid="27a78362-2cfc-4005-98e7-3276ed2b9ef6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{RegEx Fun=1 Pat=([\d\D]{8}).*$ P1={Var Name=Segment }}" Value="{RegEx Fun=1 Pat=([\d\D]{8}).*$ P1={Var Name=Segment }}" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSetVariableValue>
+    <GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="11/1/2017 1:40:56 PM" CreatedBy="AVDHOOTN" Description="Decide which segment BAN belongs" EnableRetryMechanism="False" ExternalID="" Guid="b095824e-cedc-44ad-b7e2-8eb9d361adcf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="3c81a469-109b-4fed-a296-3b8992bbb666" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms1ct04" Created="11/1/2017 1:41:19 PM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="0d1c8c2d-ae14-4753-9bc6-ba45fb6fb04b" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="32f1d7ac-f273-4cc3-8f25-cd70c184d852#GUID_NAME#DB activity OMS1" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms2ct04" Created="11/1/2017 1:43:39 PM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="1dedc128-766a-49d7-87af-7b6d2a79f575" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b70816c4-9940-4f6d-9cb2-25f1a465f265#GUID_NAME#DB activity OMS2" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms0af04" Created="11/1/2017 1:43:47 PM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="969e942b-6913-4efb-b0b1-13ffe841f410" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="9577fb7d-57f2-4615-bed6-a78cfdf9a02c#GUID_NAME#DB activity OMS3" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms1ct03" Created="11/1/2017 1:45:10 PM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="022217f6-1081-40ba-9010-9617b92e0c74" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="7b81cad9-6dfd-4571-9577-8709c9c940d5#GUID_NAME#DB activity OMS1" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms2ct03" Created="11/1/2017 1:45:17 PM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="6979430a-057a-4234-a2d7-42649bc96960" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="b70816c4-9940-4f6d-9cb2-25f1a465f265#GUID_NAME#DB activity OMS2" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms0af02" Created="11/1/2017 1:45:23 PM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="1eebd134-6216-4bdb-9ef7-db27fb8f1c4a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="9577fb7d-57f2-4615-bed6-a78cfdf9a02c#GUID_NAME#DB activity OMS3" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms0af05" Created="11/1/2017 1:45:40 PM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="2b97459d-c2fd-4ba3-8da2-ba4f9722ae5d" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="d49857ae-ef41-43f0-9c5f-0f0f723cfa5c#GUID_NAME#DB activity OMS4" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms0at07" Created="1/5/2018 10:42:07 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="6acfdacd-253b-4af6-ac93-2e5548c88a03" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="32f1d7ac-f273-4cc3-8f25-cd70c184d852#GUID_NAME#DB activity OMS1" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=Segment }=oms2at05" Created="1/5/2018 10:42:22 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToActivity" Guid="6f685664-0c16-4f8e-9594-0af9560c8a14" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="32f1d7ac-f273-4cc3-8f25-cd70c184d852#GUID_NAME#DB activity OMS1" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 1:41:00 PM" CreatedBy="AVDHOOTN" Guid="09d2e56b-aeeb-4d04-acf4-8515966da3d3" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActDummy>
+  </Acts>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="11/8/2017 5:18:49 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="619c082a-0797-47a4-bfbe-de3c34c029b4" InitialStringValue="oms1ct04_csr1.1" LastUpdate="11/8/2017 7:45:26 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Segment " ParentGuid="ff0cd174-4f92-46ab-880a-02c589358a8d" SetAsInputValue="True" SetAsOutputValue="True" Value="oms1ct04_csr1.1" VarValChanged="False" Version="1">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

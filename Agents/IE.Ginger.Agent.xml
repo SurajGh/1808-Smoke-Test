@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Agent Active="True" Created="1/5/2018 4:14:37 AM" CreatedBy="AVDHOOTN" DriverType="SeleniumChrome" Guid="fb280fad-82ac-4f8f-bac2-1eed9651335b" LastUpdate="4/19/2018 1:36:01 PM" LastUpdateBy="s06125" Name="IE" ParentGuid="00000000-0000-0000-0000-000000000000" Port="0" Remote="False" Version="17">
+  <AdvanceAgentConfigurations></AdvanceAgentConfigurations>
+  <DriverConfiguration>
+    <GingerCore.DriverConfigParam Created="3/7/2018 11:02:56 AM" CreatedBy="AVDHOOTN" Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="ebe4d016-942f-477f-abf0-cd8701657b2d" LastUpdate="1/1/0001 12:00:00 AM" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" Version="0" />
+  </DriverConfiguration>
+  <Tags></Tags>
+</GingerCore.Agent>

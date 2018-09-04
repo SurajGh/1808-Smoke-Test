@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="34bae976-5334-4c5e-9b2d-752d872e0492" ItemType="ProjEnvironment" CreatedBy="AVDHOOTN" Created="201808171204" GingerVersion="2.7.0.0" Version="4" LastUpdateBy="avdhootn" LastUpdate="201808201302" />
+<ProjEnvironment Active="False" Created="10/26/2017 9:31:13 AM" CreatedBy="AVDHOOTN" ExternalID="" Guid="34bae976-5334-4c5e-9b2d-752d872e0492" LastUpdate="7/24/2018 1:21:13 PM" LastUpdateBy="s06125" Name="1808 PSE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="54">
+<Applications>
+<EnvApplication Active="True" Guid="6295bdc7-4726-4f3a-9581-8a1cf7d64b13" Name="OMS" ParentGuid="00000000-0000-0000-0000-000000000000" Url="https://CRM0AT07.stage.att.com/smartclient/CRM/LaunchCrm.jnlp">
+<Dbs>
+<Database ConnectionString="Data Source=(description=(address=(protocol=tcp)(host=t1oms2c1.sldc.sbc.com)(port=1521))(connect_data=(server=dedicated)(service_name=t1oms4d5_1_2.db.att.com)(failover_mode=(type=select)(method=basic)(retries=180)(delay=5))));User Id=OMS0CT06ro;Password=PwdC0nn1" Created="10/27/2017 8:35:49 AM" CreatedBy="AVDHOOTN" DBType="Oracle" DBVer="" Description="OMS0CT06" Guid="e53d21b0-3526-4b32-aca4-edc6ef44c583" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</Dbs>
+
+<GeneralParams>
+<GeneralParam Encrypt="False" Guid="fbfa4681-6d13-4a4d-93b4-d6fb73d85829" Name="Env" ParentGuid="00000000-0000-0000-0000-000000000000" Value="PS PIE" />
+<GeneralParam Encrypt="False" Guid="cb4a1b51-dda1-49bc-b306-b83fc4cb174f" Name="Env2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="PSPIE" />
+</GeneralParams>
+</EnvApplication>
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>

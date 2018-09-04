@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="F&amp;TAddress validation" AutomationStatus="Development" Created="11/10/2016 6:46:55 AM" CreatedBy="komalku" Elapsed="21017" EnableActionsVariablesDependenciesControl="False" Guid="47e80977-c516-4dd9-891f-14fdb52a0cdf" LastUpdate="12/8/2016 7:52:09 AM" LastUpdateBy="komalku" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Fail" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="9/13/2016 8:18:12 PM" CreatedBy="KHYATIS" Description="Switch Window - AT&amp;T U-verse CRM Customer Interaction Manager : Release 32 - csrCRM0BT04cmem201 - Active Form System : CRM" EnableRetryMechanism="False" Guid="18a6b5fb-3acf-465b-bc6f-659769e674e1" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="30" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="9/13/2016 8:18:51 PM" CreatedBy="KHYATIS" Guid="218ecf6a-0b4d-43cb-9a79-74e057902c39" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/10/2016 7:07:58 AM" CreatedBy="SNJADHAV" Guid="2cab6bda-a2d5-4da5-b051-fa528fc36b21" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="30" Value="30" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.ActSmartSync Active="True" Created="11/10/2016 6:47:18 AM" CreatedBy="komalku" Description="Smart Sync Action" EnableRetryMechanism="False" Guid="f46324e2-17d9-4921-9d94-9942a4c39805" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.XAddressValidationFTNavigation/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlFormFooter/pnlNavigationButtons/[[Name:btnNext][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" SmartSyncAction="WaitUntilDisplay" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="20" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/10/2016 6:47:22 AM" CreatedBy="komalku" Guid="dab466a0-d6aa-410c-8a6f-e2ddaf9df3c6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSmartSync>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/10/2016 6:51:07 AM" CreatedBy="komalku" Description="Click Button btnNext" EnableRetryMechanism="False" Guid="4f098d2f-383c-4678-a263-c53684893242" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.XAddressValidationFTNavigation/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlFormFooter/pnlNavigationButtons/[[Name:btnNext][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/10/2016 6:51:12 AM" CreatedBy="komalku" Guid="1f35c365-c781-4d6e-b8a3-aec9718682ee" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActWindow Active="True" Created="11/15/2016 6:04:06 AM" CreatedBy="komalku" Description="Window Action" EnableRetryMechanism="False" Guid="4d99d01e-4de4-4396-bc6c-dcb08c9ee42c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Select an Option" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="2" WindowActionType="IsExist" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Actual}&quot; = &quot;True&quot;" Created="11/15/2016 6:04:51 AM" CreatedBy="komalku" FlowControlAction="GoToNextAction" Guid="13247a79-c2f3-43d8-ac2d-bf74279a4393" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Actual}&quot; = &quot;False&quot;" Created="11/15/2016 6:05:27 AM" CreatedBy="komalku" FlowControlAction="GoToNextActivity" Guid="40b48e81-660c-4f8e-ba5f-ac3c7aa6c4d6" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/15/2016 6:04:09 AM" CreatedBy="komalku" Guid="5488c062-0250-4c23-bd02-62f2190892b3" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="12/8/2016 6:55:39 AM" CreatedBy="komalku" Description="Click Button OptionPane.button" EnableRetryMechanism="False" Guid="bfe8f4fd-617b-4722-a68b-67b2408d46ac" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JOptionPane[0]/OptionPane.buttonArea/[[Name:OptionPane.button][ClassName:javax.swing.JButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="12/8/2016 6:57:15 AM" CreatedBy="komalku" Guid="3188c80c-f117-44b2-a437-c5110b490ed2" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/15/2016 6:03:57 AM" CreatedBy="komalku" Description="Switch Window - Select an Option" EnableRetryMechanism="False" Guid="2abd7576-3294-4350-877a-fc55d0431bc8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Select an Option" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="2" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/15/2016 6:04:00 AM" CreatedBy="komalku" Guid="6e264e67-52a7-4a33-b6a8-ccc7b44aa8c4" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="GetValue" Created="12/8/2016 3:11:04 AM" CreatedBy="komalku" Description="Get OptionPane.button Text" EnableRetryMechanism="False" Guid="fa365ba3-226d-44d0-901a-5920f805989c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="OptionPane.button" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="12/8/2016 3:12:30 AM" CreatedBy="komalku" Guid="fbcbd310-6831-4874-b0e3-17b0f55f0f0e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Move" Value="Move" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GblCheckStatus" AutomationStatus="Development" Created="11/30/2016 4:29:40 AM" CreatedBy="vaishnak" Elapsed="6883" EnableActionsVariablesDependenciesControl="False" Guid="3edce60a-7f79-4a77-aece-d0670a2b7162" LastUpdate="11/30/2016 5:28:44 AM" LastUpdateBy="vaishnak" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/17/2016 5:16:37 AM" CreatedBy="komalku" Description="Switch Window - AT&amp;T CRM Customer Interaction Manager : Release 33 - csrCRM0CT04cmem201 - Active Form System : CRM" EnableRetryMechanism="False" Guid="2f228815-0a2f-4f8b-9914-ee057075259f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager : " MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:56:13 AM" CreatedBy="komalku" Guid="828c9742-26ce-4dec-af24-15d10d90b7c4" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/17/2016 5:16:42 AM" CreatedBy="komalku" Description="Click 'go to Reasons'" EnableRetryMechanism="False" Guid="61be09d2-eac9-43e0-8715-21084d14b40e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="hyperlinkFlipPanel" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="2" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:17:11 AM" CreatedBy="komalku" Guid="8647e9a1-4c2f-4c26-aab0-0e42080883d2" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Select" Created="11/17/2016 5:18:11 AM" CreatedBy="komalku" Description="Set listReason1" EnableRetryMechanism="False" Guid="1041be59-9032-425f-b1b4-6b16e3b58be6" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="listReason1" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="1" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:18:30 AM" CreatedBy="komalku" Guid="77675b94-1ed0-4c86-8f50-44b2a3db3d17" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Ordering" Value="Ordering" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Select" Created="11/17/2016 5:18:11 AM" CreatedBy="komalku" Description="Set listReason2" EnableRetryMechanism="False" Guid="8e8ac76c-99f9-483c-9b99-a9172d742d20" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="listReason2" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="True" Version="0" Wait="1" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:18:30 AM" CreatedBy="komalku" Guid="77675b94-1ed0-4c86-8f50-44b2a3db3d17" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Check Status" Value="Check Status" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Next from Sales Offer Page" AutomationStatus="Development" Created="5/1/2018 3:21:47 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="a2e0ef1c-1cc3-4e88-837c-e40314596a44" LastUpdate="5/2/2018 1:50:37 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Java Driver" Version="1">
+<Acts>
+<GingerCore.Actions.ActSwitchWindow Active="True" ConfigOutputDS="False" Created="5/1/2018 3:21:51 PM" CreatedBy="AVDHOOTN" Description="Switch Window" EnableRetryMechanism="False" ExternalID="" Guid="2d6b7b5b-4baf-46f0-b1a2-167ac9617ddf" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM" MaxNumberOfRetries="2" ParentGuid="c881393f-bb28-40ef-a16e-73a90ab6bb05" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WaitTime="30" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 3:21:55 PM" CreatedBy="AVDHOOTN" Guid="b8661033-3bac-49b6-81f0-8f06d84d5829" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="30" Value="30" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActSwitchWindow>
+<GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="Click" Created="5/1/2018 3:22:11 PM" CreatedBy="AVDHOOTN" Description="Click Next" EnableRetryMechanism="False" ExternalID="" Guid="dd33a400-536a-4c72-9386-44409e18ba27" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="2" ParentGuid="fca300a8-0bed-4f60-85d3-9be334248915" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 3:22:13 PM" CreatedBy="AVDHOOTN" Guid="0b316999-741c-4ac0-8133-348340b7bfdc" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.Java.ActJavaElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

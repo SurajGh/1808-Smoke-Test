@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Actions.ActTableElement Active="True" ByRandRow="False" ByRowNum="False" BySelectedRow="False" ByWhere="True" ColSelectorValue="ColNum" ControlAction="SetValue" Created="10/13/2016 7:33:50 PM" CreatedBy="KHYATIS" Description="Set grdWTNInformation Table Cell Value" EnableRetryMechanism="False" Guid="f65c92af-713f-4274-9c42-74c8fecfba6d" LastUpdate="10/27/2016 3:49:17 AM" LastUpdateBy="kushs" LocateBy="ByXPath" LocateColTitle="0" LocateRowType="Where" LocateRowValue="0" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/pnScreenDetails/pnlAccountInfo/pnlAccount/pnlGrid/grdWTNInformation/javax.swing.JPanel[0]/com.amdocs.uif.widgets.SearchGridNative$6[0]/javax.swing.JViewport[0]/[[Name:grdWTNInformation][ClassName:com.amdocs.uif.widgets.search.SearchJTable]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" RunActionOn="OnCellRowNumColNum" StatusConverter="IgnoreFail" TakeScreenShot="True" Version="1" Wait="2" WhereColSelector="ColNum" WhereColumnTitle="0" WhereColumnValue="Please" WhereOperator="Contains" WhereProperty="Value" WindowsToCapture="OnlyActiveWindow">
+  <FlowControls>
+    <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Pass&quot;" Created="10/27/2016 3:37:47 AM" CreatedBy="kushs" FlowControlAction="GoToAction" Guid="0e11559f-963d-4c6d-a994-937dca65f8aa" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="74b887d2-cf6a-44d2-ba4c-3d616c345b10#GUID_NAME#Toggle Checkbox chkDisconnectAck" Version="0" />
+  </FlowControls>
+  <InputValues>
+    <GingerCore.Actions.ActInputValue Created="10/13/2016 7:34:30 PM" CreatedBy="KHYATIS" Guid="7a17d9c1-fee3-4ca7-ad69-68ecd51e0390" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Disconnect" Value="Disconnect" Version="0" />
+    <GingerCore.Actions.ActInputValue Created="10/13/2016 7:34:30 PM" CreatedBy="KHYATIS" Guid="c81b4e14-5853-44e2-aaa9-ab4d8d968461" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Where" Value="Where" Version="0" />
+  </InputValues>
+  <ReturnValues></ReturnValues>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Actions.ActTableElement>

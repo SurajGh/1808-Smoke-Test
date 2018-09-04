@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Submit Order Action Page" AutomationStatus="Development" Created="11/1/2017 5:36:35 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="e46b7266-e253-4bb6-9ecc-3dedb09ff425" LastUpdate="11/1/2017 7:14:43 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+<Acts>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 5:37:46 AM" CreatedBy="AVDHOOTN" Description="View Disclosure" EnableRetryMechanism="False" Guid="16be959c-2951-45f5-af62-0b320f57c090" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:btnViewDisclosure" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/1/2017 5:37:46 AM" CreatedBy="AVDHOOTN" Guid="956a8e54-4bc1-4a52-8c8a-6b3c2251c7f9" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 5:37:46 AM" CreatedBy="AVDHOOTN" Description="Click Close when Disclosures load" EnableRetryMechanism="True" Guid="de490c41-07b3-4a32-8ebf-3fbb481d1880" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnClose" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/1/2017 5:37:46 AM" CreatedBy="AVDHOOTN" Guid="4af72d16-7b4b-424a-9b94-cf17b7bd05b3" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 5:38:12 AM" CreatedBy="AVDHOOTN" Description="Click Next" EnableRetryMechanism="False" Guid="68d4f331-a228-437c-af6e-5408e552ff08" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/1/2017 5:38:12 AM" CreatedBy="AVDHOOTN" Guid="ac644b4f-b075-41bc-8de6-b832821828de" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 6:04:52 AM" CreatedBy="AVDHOOTN" Description="Close Submit page" EnableRetryMechanism="False" Guid="30b13367-98be-4dcf-92af-a62a0d37a4a2" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnCloseFramework" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="11/1/2017 6:04:52 AM" CreatedBy="AVDHOOTN" Guid="5b7367eb-fc22-42de-860b-2071ee708715" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

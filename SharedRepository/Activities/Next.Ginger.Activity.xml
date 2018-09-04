@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Next" AutomationStatus="Development" Created="11/10/2016 6:46:55 AM" CreatedBy="komalku" EnableActionsVariablesDependenciesControl="False" ExternalID="9796975" Guid="bd26337b-1e77-4aa9-b163-553d34b3a90e" LastUpdate="1/11/2018 6:42:51 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActSmartSync Active="True" ConfigOutputDS="False" Created="11/10/2016 6:47:18 AM" CreatedBy="komalku" Description="Smart Sync Action" EnableRetryMechanism="True" Guid="f46324e2-17d9-4921-9d94-9942a4c39805" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.XServiceAddressCreateFT/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlMain/pnlFooter/pnlButtons/[[Name:btnNext][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="3" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="1" SmartSyncAction="WaitUntilDisplay" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WaitTime="20" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/10/2016 6:47:22 AM" CreatedBy="komalku" Guid="dab466a0-d6aa-410c-8a6f-e2ddaf9df3c6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSmartSync>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="IsVisible" Created="1/25/2017 5:46:46 PM" CreatedBy="s03018" Description="Verify address table" EnableRetryMechanism="False" Guid="df481802-a3cc-42b6-8cbe-208a889716d9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.XAddressValidationFTNavigation/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/subformpnlReturnedAddress/root/pnlAddressLists/crdpnlAddressLists/pnlSagList/pnlSagList/searchlist/javax.swing.JPanel[0]/com.amdocs.uif.widgets.SearchGridNative$6[0]/javax.swing.JViewport[0]/[[Name:searchlist][ClassName:com.amdocs.uif.widgets.search.SearchJTable]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="None" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=CheckTable}&quot; = &quot;true&quot;" Created="1/25/2017 5:50:36 PM" CreatedBy="s03018" FlowControlAction="GoToNextAction" Guid="9cbefe47-bbd9-4a48-bdd9-294ffb538ce7" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=CheckTable}&quot; = &quot;false&quot;" Created="1/25/2017 5:51:18 PM" CreatedBy="s03018" FlowControlAction="GoToAction" Guid="025c20aa-b1a1-4768-b990-ab70e15ced7b" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0c2d86e2-b481-44be-8dfe-db65007e98cb#GUID_NAME#Click btnNext" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/25/2017 5:47:19 PM" CreatedBy="s03018" Guid="e9168981-744c-4be5-96f3-7f84551417ca" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="1/25/2017 5:50:11 PM" CreatedBy="s03018" Guid="77535a79-1779-4779-b2ec-a6c69897a0e4" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="CheckTable" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActTableElement Active="True" ByRandRow="False" ByRowNum="True" BySelectedRow="False" ByWhere="False" ColSelectorValue="ColNum" ConfigOutputDS="False" ControlAction="Click" Created="12/13/2016 7:28:51 AM" CreatedBy="komalku" Description="Select First address" EnableRetryMechanism="False" Guid="087c7327-2175-4361-a0dc-c99c4511229a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateColTitle="1" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.XAddressValidationFTNavigation/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/subformpnlReturnedAddress/root/pnlAddressLists/crdpnlAddressLists/pnlSagList/pnlSagList/searchlist/javax.swing.JPanel[0]/com.amdocs.uif.widgets.SearchGridNative$6[0]/javax.swing.JViewport[0]/[[Name:searchlist][ClassName:com.amdocs.uif.widgets.search.SearchJTable]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" RunActionOn="OnCellRowNumColNum" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WhereColSelector="ColNum" WhereColumnTitle="0" WhereOperator="Equals" WhereProperty="Value" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="12/13/2016 7:28:51 AM" CreatedBy="komalku" Guid="69503b3a-af91-40c1-bc22-5618971616fe" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Row Number" Value="Row Number" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="12/13/2016 7:28:51 AM" CreatedBy="komalku" Guid="17f173de-7a43-4e71-b71b-8fab6a5b3fcc" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowValue" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="12/13/2016 7:28:51 AM" CreatedBy="komalku" Guid="59ec1495-2edf-4ea4-ac9f-a3af90bcf3a5" LastUpdate="1/1/0001 12:00:00 AM" Param="WhereColumnValue" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="12/13/2016 7:29:09 AM" CreatedBy="komalku" Guid="db4fe79a-3581-4051-8139-e152b26dfabd" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActTableElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="Click" Created="12/13/2016 7:29:36 AM" CreatedBy="komalku" Description="Click Select button" EnableRetryMechanism="False" Guid="ee5c6776-72b2-40b2-90fe-8c2f3f7396b8" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.XAddressValidationFTNavigation/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/subformpnlReturnedAddress/root/pnlAddressLists/crdpnlAddressLists/pnlSagList/pnlSagList/pnlSelectSagButton/[[Name:btnSagSelect][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="12/13/2016 7:29:40 AM" CreatedBy="komalku" Guid="63c062ba-6f82-49a8-a275-58557c8c3afb" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="Click" Created="11/10/2016 6:44:51 AM" CreatedBy="komalku" Description="Click btnNext" EnableRetryMechanism="False" Guid="0c2d86e2-b481-44be-8dfe-db65007e98cb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.XServiceAddressCreateFT/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlMain/pnlFooter/pnlButtons/[[Name:btnNext][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/10/2016 6:44:56 AM" CreatedBy="komalku" Guid="1bb362b1-05c5-449b-a781-179c0a4f57e4" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActSwitchWindow Active="True" ConfigOutputDS="False" Created="9/13/2016 8:18:12 PM" CreatedBy="KHYATIS" Description="Message" EnableRetryMechanism="False" Guid="838e8e50-f27e-4195-ba4e-f14a949e4bf2" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Message" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WaitTime="15" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="12/13/2016 6:53:20 AM" CreatedBy="komalku" FlowControlAction="GoToAction" Guid="85870456-3043-4791-9080-cc3e71a9a78b" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="95b148bb-b8b4-4d9e-ba97-b0ce86b57e9f#GUID_NAME#Verify address validation screen" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="9/13/2016 8:18:51 PM" CreatedBy="KHYATIS" Guid="218ecf6a-0b4d-43cb-9a79-74e057902c39" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/10/2016 7:07:58 AM" CreatedBy="SNJADHAV" Guid="2cab6bda-a2d5-4da5-b051-fa528fc36b21" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="15" Value="15" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="Click" Created="11/10/2016 6:49:29 AM" CreatedBy="komalku" Description="Click Button OptionPane.button" EnableRetryMechanism="False" Guid="5e396296-8d87-46a6-8492-4be6a2d45eca" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JOptionPane[0]/OptionPane.buttonArea/[[Name:OptionPane.button][ClassName:javax.swing.JButton]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="12/13/2016 6:53:40 AM" CreatedBy="komalku" FlowControlAction="GoToNextActivity" Guid="2146c68d-7fdb-4651-b8f1-57363f57b078" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/10/2016 6:49:43 AM" CreatedBy="komalku" Guid="048fae56-46ea-4ea8-a1ac-a4aabb68019c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActWindow Active="True" ConfigOutputDS="False" Created="1/27/2017 7:04:34 AM" CreatedBy="s03030" Description="Verify address validation screen" EnableRetryMechanism="False" Guid="95b148bb-b8b4-4d9e-ba97-b0ce86b57e9f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Address Validation" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowActionType="IsExist" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{Var Name=CheckTable}&quot; = &quot;False&quot;" Created="1/27/2017 7:05:18 AM" CreatedBy="s03030" FlowControlAction="GoToNextActivity" Guid="18ea5b1b-00f4-433f-bbf9-ff82ea5dcb04" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/27/2017 7:04:42 AM" CreatedBy="s03030" Guid="97827f9e-7d7e-4217-9d0b-c03692b1f8cc" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="1/27/2017 7:04:58 AM" CreatedBy="s03030" Guid="f06ca5bb-902a-491f-84e0-105b4f7f0b29" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="CheckTable" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActWindow>
+    <GingerCore.Actions.ActSwitchWindow Active="True" ConfigOutputDS="False" Created="12/13/2016 6:52:30 AM" CreatedBy="komalku" Description="Switch Window - Address Validation" EnableRetryMechanism="False" Guid="84044b37-4a16-4c41-a6f7-b0a001e1b672" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Address Validation" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="2/3/2017 7:38:53 PM" CreatedBy="s03021" Guid="6124f77d-e6c8-4076-bb2e-bb7e14ec6b7e" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="Click" Created="12/13/2016 6:52:41 AM" CreatedBy="komalku" Description="Click Button OptionPane.button" EnableRetryMechanism="False" Guid="585bc0ba-6fa1-4b23-abbb-bad1713bc7a9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByValue" LocateValue="Continue" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="12/13/2016 6:52:46 AM" CreatedBy="komalku" Guid="a81a1aec-2790-409b-b024-050ac371361c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="1/25/2017 5:49:04 PM" CreatedBy="s03018" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="d46f27f8-4676-4af4-a07a-154e8cd32d5b" InitialStringValue="false" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="CheckTable" ParentGuid="151be18d-538c-47ca-9a77-f0ce779510fc" ParentName="Reg_C01" ParentType="Business Flow" SetAsInputValue="True" SetAsOutputValue="True" Value="false" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

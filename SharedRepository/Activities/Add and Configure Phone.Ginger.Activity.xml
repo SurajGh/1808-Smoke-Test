@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Add and Configure Phone" AutomationStatus="Development" Created="11/8/2017 5:36:08 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="604d49a0-05d6-4b15-a89c-44afc28b98e6" LastUpdate="11/8/2017 2:20:49 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:36:55 AM" CreatedBy="AVDHOOTN" Description="Add Phone" EnableRetryMechanism="False" Guid="0b09bb09-80fd-438a-aa29-a3c19cffd3ef" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:btnAddVoice" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:36:55 AM" CreatedBy="AVDHOOTN" Guid="b38680f7-0377-43c1-8704-930249449e4c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:38:20 AM" CreatedBy="AVDHOOTN" Description="Set Directory Listing" EnableRetryMechanism="False" Guid="ad4e06a0-6e7f-4ae6-859d-da0c4496e32a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:pnlVoiceBody:hgrd_VOIPGRID02/[name=&quot;colAttr&quot;]:[[name=&quot;colAttr&quot;]:[text=~&quot;Non Listed&quot;]]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:38:20 AM" CreatedBy="AVDHOOTN" Guid="cd5a9306-84e4-4f1b-929d-591dde703956" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:41:16 AM" CreatedBy="AVDHOOTN" Description="Click on Negotiate TN" EnableRetryMechanism="False" Guid="fddd6087-862d-4b27-b94d-673a01f61cb1" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:pnlVoiceBody:btnNegotiateTNs" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:41:16 AM" CreatedBy="AVDHOOTN" Guid="36d883bd-57b5-4906-a1b4-7dccc7d82877" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:41:16 AM" CreatedBy="AVDHOOTN" Description="Select Native TN radio " EnableRetryMechanism="False" Guid="1ab7d751-975d-4420-b3e5-bdced5d0f0ee" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="radioNativeTN" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:41:16 AM" CreatedBy="AVDHOOTN" Guid="06c03cbb-4607-4ca6-ad53-2fa1b83fa5e3" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:41:16 AM" CreatedBy="AVDHOOTN" Description="Get Numbers" EnableRetryMechanism="False" Guid="62b573b4-bbf2-4120-83a6-fac774c2fd4b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnGetNumber4NativeTN" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:41:16 AM" CreatedBy="AVDHOOTN" Guid="e2f57d51-6be3-4b95-b795-2c71835c1ab9" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:41:17 AM" CreatedBy="AVDHOOTN" Description="Add Line" EnableRetryMechanism="False" Guid="bbfc99d4-9654-47d5-9a68-30f8a1f759fb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnSelectNumber" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:41:17 AM" CreatedBy="AVDHOOTN" Guid="c2261760-d422-4dc2-8d9b-5be8f3d7f350" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:41:17 AM" CreatedBy="AVDHOOTN" Description="Select Answering machine" EnableRetryMechanism="False" Guid="21f7cc7d-88ea-4fd8-ad06-512d7f0f76e7" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="hrgd_VOIPLine/[name=&quot;colAttr&quot;]:[[name=&quot;colAttr&quot;]:[text=~&quot;Answering machine&quot;]]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:41:17 AM" CreatedBy="AVDHOOTN" Guid="7dcd3de4-ced6-411b-9bad-3becc3c40015" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/8/2017 5:41:17 AM" CreatedBy="AVDHOOTN" Description="Click Ok" EnableRetryMechanism="False" Guid="69443d3b-86ec-4f75-80ce-994fdde3f825" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnOK" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/8/2017 5:41:17 AM" CreatedBy="AVDHOOTN" Guid="131e734e-4ca1-467a-a337-3c075278b2fe" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

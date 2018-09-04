@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.5.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Launch Smoke Test Tool" AutomationStatus="Development" Created="1/5/2018 5:24:09 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="ae32cb73-bc09-48ba-93f7-012bf892e914" LastUpdate="1/5/2018 5:33:01 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="IE" Version="1">
+<Acts>
+<GingerCore.Actions.ActGotoURL Active="True" ConfigOutputDS="False" Created="1/5/2018 5:24:26 AM" CreatedBy="AVDHOOTN" Description="Launch Smoke Test Tool" EnableRetryMechanism="False" ExternalID="" Guid="68f14ee0-8670-4ce8-8395-f4c54ffa2440" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="ce69f08e-4bf4-428a-b25d-732ca1f6b527" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="1/5/2018 5:24:28 AM" CreatedBy="AVDHOOTN" Guid="0e98988f-e4e3-4379-8257-633fdfc3a88e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="http://ebiz.sbc.com/lstestenvironmentool/ERT_3_0/envstatus_rep/smoke_test_menu.cfm" Value="http://ebiz.sbc.com/lstestenvironmentool/ERT_3_0/envstatus_rep/smoke_test_menu.cfm" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGotoURL>
+</Acts>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

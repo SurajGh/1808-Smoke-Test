@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Click Next from USPS validation page" AutomationStatus="Development" Created="4/27/2018 3:53:04 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="80423e3b-91ce-4d31-87e8-eee73129dc4d" LastUpdate="5/1/2018 6:07:48 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Java Driver" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" ConfigOutputDS="False" Created="4/27/2018 3:53:17 AM" CreatedBy="AVDHOOTN" Description="Switch Window" EnableRetryMechanism="False" ExternalID="" Guid="455cc3cb-e14f-49ab-808e-dcf6c1de7e55" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager" MaxNumberOfRetries="2" ParentGuid="e2d4a53f-5b99-4f20-a1a7-5f6a320a7c26" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WaitTime="30" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="4/27/2018 3:53:18 AM" CreatedBy="AVDHOOTN" Guid="e2419d8f-7d62-4e18-8a05-515594211e8d" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="30" Value="30" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="Click" Created="4/27/2018 3:53:34 AM" CreatedBy="AVDHOOTN" Description="Click Next" EnableRetryMechanism="False" ExternalID="" Guid="77736f46-ad17-44e6-859d-42487314b080" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.sbc.cc.crm.isupport.address.popup.AddressValidationNavigationExt/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlFormFooter/pnlNavigationButtons/[[Name:btnNext][ClassName:com.amdocs.uif.widgets.ButtonNative$JXButton]]" MaxNumberOfRetries="2" ParentGuid="08e2635f-25bc-4c8f-876e-f5866bee96c4" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="4/27/2018 3:53:35 AM" CreatedBy="AVDHOOTN" Guid="2e0983d6-9743-412f-9ac4-f59b7b3f5fc8" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <MappedErrorHandlers></MappedErrorHandlers>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

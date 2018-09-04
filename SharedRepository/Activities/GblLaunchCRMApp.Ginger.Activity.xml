@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GblLaunchCRMApp" AutomationStatus="Development" Created="11/7/2016 5:40:45 PM" CreatedBy="KHYATIS" Description="" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f7c7060a-6dbf-49c3-a088-b52119f08690" LastUpdate="4/12/2018 5:04:14 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="105778af-fc0d-4b8b-b273-22bd735f721f" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="5">
+  <Acts>
+    <GingerCore.Actions.ActLaunchJavaWSApplication Active="True" ConfigOutputDS="False" Created="11/7/2016 5:41:00 PM" CreatedBy="KHYATIS" Description="Launch CRM Application" EnableRetryMechanism="False" Guid="c62b58ad-d939-4722-bfe7-19a0925dc78d" JavaAgentPath="" JavaWSEXEPath="" LastUpdate="1/1/0001 12:00:00 AM" LaunchJavaApplication="True" LaunchWithAgent="True" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" Port="8888" RetryMechanismInterval="0" ShowAgent="False" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" URL="{EnvParam App=CRM Param=URL}" Version="0" Wait="0" WaitForWindowTitle="Login" WaitForWindowTitleMaxTime="400" WaitForWindowWhenDoingLaunch="True" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues></InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActLaunchJavaWSApplication>
+  </Acts>
+  <MappedErrorHandlers></MappedErrorHandlers>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

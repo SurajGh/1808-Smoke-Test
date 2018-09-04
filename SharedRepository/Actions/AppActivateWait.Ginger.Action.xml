@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Actions.ActScript Active="True" Created="3/21/2016 10:56:45 AM" CreatedBy="s02935" Description="AppActivateWait" EnableRetryMechanism="False" Guid="b5e2b8a1-d75a-42c3-adce-d32574cd0614" LastUpdate="9/12/2016 7:16:28 PM" LastUpdateBy="KHYATIS" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="0" RetryMechanismInterval="0" ScriptCommand="Script" ScriptInterpreterType="VBS" ScriptName="LaunchCRM_Yash_New.vbs" ScriptPath="A:\Automation\V1607\Ginger Workspace\CRM\CRM_Kush\Smoke_Status_Portal\\Documents\Scripts\" StatusConverter="None" TakeScreenShot="True" Version="1" Wait="4" WindowsToCapture="OnlyActiveWindow">
+  <FlowControls></FlowControls>
+  <InputValues></InputValues>
+  <ReturnValues></ReturnValues>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Actions.ActScript>

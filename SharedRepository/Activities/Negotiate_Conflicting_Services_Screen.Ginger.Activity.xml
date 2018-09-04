@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Negotiate Conflicting Services Screen" AutomationStatus="Development" Created="10/30/2017 7:12:56 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b665ec91-c5d0-46a1-8a85-d75e8df39174" LastUpdate="5/2/2018 3:02:08 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="2">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Enabled" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Check if Next button Enabled on NCS" EnableRetryMechanism="False" ExternalID="" Guid="f9f3429d-1bda-456f-b67a-c30cb4ed7248" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="2" ParentGuid="d0d39985-1d27-4588-90e0-c6a628a307fd" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="InStr(&quot;{Var Name=isNextEnabled}&quot;,&quot;true&quot;)&gt;0" Created="4/19/2018 5:17:24 AM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="0c8d12ba-533c-40ac-8f1f-dcd69c926b65" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1e051388-6e9b-4b7c-aea2-36e41a8f9291#GUID_NAME#Click Next on NCS" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="InStr(&quot;{Var Name=isNextEnabled}&quot;,&quot;false&quot;)&gt;0" Created="4/19/2018 5:50:36 AM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="7e6301b2-773b-48b5-a432-8663e3c3dd78" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="21823654-f3cf-4592-9764-f2b7c283ddb0#GUID_NAME#Check if Refresh button Enabled" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="4/20/2018 1:19:41 PM" CreatedBy="s06125" Guid="8374e785-ea8a-4d55-8822-aa6988b3134d" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="isNextEnabled" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Enabled" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Check if Refresh button Enabled" EnableRetryMechanism="False" ExternalID="" Guid="21823654-f3cf-4592-9764-f2b7c283ddb0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:btnRefresh" MaxNumberOfRetries="2" ParentGuid="e5fbfc53-feb3-4c07-8cb7-986ce3e10316" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="InStr(&quot;{Var Name=isRefreshEnabled}&quot;,&quot;true&quot;)&gt;0" Created="4/19/2018 5:51:03 AM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="fc8fa372-234d-44ba-9d56-d4c5eb805708" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="edd63ea5-4b42-4519-83b8-978a2311aa39#GUID_NAME#Click on Full Address Search if Grid not returned" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="InStr(&quot;{Var Name=isRefreshEnabled}&quot;,&quot;false&quot;)&gt;0" Created="4/19/2018 5:51:27 AM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="ac4240d7-ba12-4cec-b00b-92690e11435a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="3740aa38-c1d4-4dd3-81ea-b3fbc1987388#GUID_NAME#Select Disconnect" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="4/20/2018 1:35:59 PM" CreatedBy="s06125" Guid="a11ed458-78ee-4f9c-842c-e548c5a78e3c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="isRefreshEnabled" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Click on Full Address Search" EnableRetryMechanism="False" ExternalID="" Guid="edd63ea5-4b42-4519-83b8-978a2311aa39" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:btnFullTNInquiry" MaxNumberOfRetries="2" ParentGuid="c8402491-6f96-426d-a7e2-f91fb2c9fc5b" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Click Refresh after 60 seconds" EnableRetryMechanism="False" ExternalID="" Guid="d0ac9793-1fc1-4c52-a1ef-5f1769bce376" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:btnRefresh" MaxNumberOfRetries="2" ParentGuid="c82e4b1e-55ae-43bc-a52e-c8e5e83e2fd3" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="60" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Click Ok if no data returned" EnableRetryMechanism="False" ExternalID="" Guid="55990033-87cd-4003-8286-ace6575fee8c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Ok" MaxNumberOfRetries="2" ParentGuid="ef2a61b7-324c-4e05-8869-702311523360" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="3" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Enabled" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Check if Next button Enabled on NCS after refresh" EnableRetryMechanism="False" ExternalID="" Guid="1a2cab89-5201-4b3e-8246-f1ec327c1eee" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="2" ParentGuid="f5685f93-47d0-46b4-b42f-a8cff869afea" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="InStr(&quot;{Var Name=isNextEnabled}&quot;,&quot;true&quot;)&gt;0" Created="4/19/2018 5:17:24 AM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="0c8d12ba-533c-40ac-8f1f-dcd69c926b65" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1e051388-6e9b-4b7c-aea2-36e41a8f9291#GUID_NAME#Click Next on NCS" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="4/20/2018 1:43:50 PM" CreatedBy="s06125" Guid="4fd4a74a-fe8b-47e7-a97b-e38d2456c583" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="isNextEnabled" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="Visible" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Select Disconnect" EnableRetryMechanism="False" ExternalID="" Guid="3740aa38-c1d4-4dd3-81ea-b3fbc1987388" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:grdWTNInformation/Cust OK:0" MaxNumberOfRetries="2" ParentGuid="c32aee62-2db3-4a47-8139-8d887c79e789" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="4/19/2018 5:20:50 AM" CreatedBy="s06125" FlowControlAction="0" Guid="5c73d19d-d5e8-4796-b5c9-3897748cda45" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Disconnect" Value="Disconnect" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="Visible" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Select Disconnect for second row" EnableRetryMechanism="False" ExternalID="" Guid="9cdcfccd-3831-4ef8-93b9-ca914b891f06" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:grdWTNInformation/Cust OK:1" MaxNumberOfRetries="2" ParentGuid="d2f479b2-c0d1-4a0e-9e1c-087b68fab5e9" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Disconnect" Value="Disconnect" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Select Acknowledgement checkbox" EnableRetryMechanism="False" ExternalID="" Guid="e6facd47-3cb5-4e58-b327-c49ca9a34ead" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:chkDisconnectAck" MaxNumberOfRetries="2" ParentGuid="2c0a5d7e-724d-4b89-b134-6a32d1e04685" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Description="Click Next on NCS" EnableRetryMechanism="False" Guid="1e051388-6e9b-4b7c-aea2-36e41a8f9291" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/30/2017 7:13:19 AM" CreatedBy="AVDHOOTN" Guid="61c8aa38-ce47-4fd8-9071-6029109d0a1c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <MappedErrorHandlers></MappedErrorHandlers>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="4/20/2018 1:21:15 PM" CreatedBy="s06125" CycleCount="0" DiffrentFromOrigin="False" Guid="3d00549d-edde-4fc6-9ae9-3785a1d444f7" InitialStringValue="true" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="isNextEnabled" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="true" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+    <GingerCore.Variables.VariableString Created="4/20/2018 1:21:25 PM" CreatedBy="s06125" CycleCount="0" DiffrentFromOrigin="False" Guid="fc7de57d-ee6b-4980-b27a-3e7d241c71ab" InitialStringValue="false" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="isRefreshEnabled" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="false" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Negotiate Reason Codes Screen" AutomationStatus="Development" Created="10/30/2017 7:09:55 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="d89275b2-18e1-4a89-9f8a-4013f77d5f4c" LastUpdate="6/6/2018 6:14:14 AM" LastUpdateBy="s06125" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="3">
+<Acts>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Text" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Check if internet option shown on NRC" EnableRetryMechanism="False" ExternalID="" Guid="d05ac4d3-0741-4d12-8717-aec1fe81d483" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;Internet&quot;]]" MaxNumberOfRetries="2" ParentGuid="ff2fb88b-bd7c-4f50-b870-ebd4abe7de0d" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="6" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="5/31/2018 2:21:54 PM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="4bcf12b5-94a0-40f2-909e-f40127c6144c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0d4bea3b-6dcf-4875-a60e-accfcd593aa9#GUID_NAME#Check if Phone option shown on NRC" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Guid="cdb679ea-67f0-4591-ae19-87c54c314448" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Select Reason for Internet" EnableRetryMechanism="False" ExternalID="" Guid="703916dc-111e-4629-9a57-c4aa65229a07" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;Internet&quot;]]" MaxNumberOfRetries="2" ParentGuid="6eb6a6a6-7bbd-40a9-8704-33eab443809b" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Guid="cdb679ea-67f0-4591-ae19-87c54c314448" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Too Expensive" Value="Too Expensive" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Text" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Check if Phone option shown on NRC" EnableRetryMechanism="False" ExternalID="" Guid="0d4bea3b-6dcf-4875-a60e-accfcd593aa9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;Phone&quot;]]" MaxNumberOfRetries="2" ParentGuid="11b64cfc-6f6f-42be-a2f3-e1e92173c377" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="5/31/2018 2:21:54 PM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="4bcf12b5-94a0-40f2-909e-f40127c6144c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="fdb22c80-c20f-4044-a47f-5d0f039671e9#GUID_NAME#Check if TV option shown on NRC" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Guid="cdb679ea-67f0-4591-ae19-87c54c314448" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Select Reason for Phone" EnableRetryMechanism="False" Guid="b195a4e0-735e-45dd-b522-91263b467dc5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;Phone&quot;]]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Guid="cdb679ea-67f0-4591-ae19-87c54c314448" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Service Not Supported" Value="Service Not Supported" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Text" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Check if TV option shown on NRC" EnableRetryMechanism="False" ExternalID="" Guid="fdb22c80-c20f-4044-a47f-5d0f039671e9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;TV&quot;]]" MaxNumberOfRetries="2" ParentGuid="79a84b84-c2d5-4639-ac34-8209625e5090" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="5/31/2018 2:21:54 PM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="4bcf12b5-94a0-40f2-909e-f40127c6144c" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="66ee0dd4-67d5-4264-92f3-3f202c247c07#GUID_NAME#Click on Next" Version="0" />
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Guid="cdb679ea-67f0-4591-ae19-87c54c314448" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Select Reason for TV" EnableRetryMechanism="False" ExternalID="" Guid="41cd857c-7755-4c00-9349-4499050287ab" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;TV&quot;]]" MaxNumberOfRetries="2" ParentGuid="cc8cffbe-ff13-44f3-b892-8b73b91890c2" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Guid="cdb679ea-67f0-4591-ae19-87c54c314448" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Too Expensive" Value="Too Expensive" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/30/2017 7:12:37 AM" CreatedBy="AVDHOOTN" Description="Click on Next" EnableRetryMechanism="False" Guid="66ee0dd4-67d5-4264-92f3-3f202c247c07" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="10/30/2017 7:12:37 AM" CreatedBy="AVDHOOTN" Guid="e6dfe4d2-3cf6-44d6-8cdc-c7d36b81d120" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

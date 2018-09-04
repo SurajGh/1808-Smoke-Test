@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="False" ActivityName="Select Offers and multiproduct screen" AutomationStatus="Development" Created="3/7/2017 5:55:08 AM" CreatedBy="s03024" EnableActionsVariablesDependenciesControl="False" ExternalID="" Guid="3817caa5-b19e-4952-b496-443bc48db056" LastUpdate="1/5/2018 8:08:25 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="80%" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="IsVisible" Created="9/13/2016 8:43:16 PM" CreatedBy="KHYATIS" Description="CheckOffersAndProductAvailable" EnableRetryMechanism="False" Guid="9482bc47-1cd3-4697-bf67-f03f0c464f4f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlOffers" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WaitforIdle="Short" WindowsToCapture="AllAvailableWindows">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="3/6/2017 6:43:08 PM" CreatedBy="s03022" FlowControlAction="GoToNextAction" Guid="b9554ddf-377f-4366-819e-149b1c3bc046" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="3/6/2017 6:44:00 PM" CreatedBy="s03022" FlowControlAction="GoToNextActivity" Guid="cafc3616-8e24-473d-ae9e-a95357f7d5ec" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="9/13/2016 8:43:40 PM" CreatedBy="KHYATIS" Guid="42956376-814e-4618-b1cb-721655f2e6a1" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="3/6/2017 6:42:55 PM" CreatedBy="s03022" Guid="63837d9f-8c32-417b-9288-acd08c7c422f" LastUpdate="1/1/0001 12:00:00 AM" mExpected="true" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="None" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+    <GingerCore.Actions.ActTableElement Active="False" ByRandRow="False" ByRowNum="True" BySelectedRow="False" ByWhere="False" ColSelectorValue="ColTitle" ConfigOutputDS="False" ControlAction="GetRowCount" Created="3/7/2017 6:06:39 AM" CreatedBy="s03024" Description="Select DTV" EnableRetryMechanism="False" Guid="6ccc45d9-e7ba-4643-9698-b3335a850e0b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateColTitle="0" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/pnlContainedForm/root/pnlProducts/pnlOffers/pnlProduct1/root/crdPlan/pnlPlan/pnlPlan/pnlFrontCard/pnlProducts/grdProducts/javax.swing.JPanel[0]/com.amdocs.uif.widgets.SearchGridNative$6[0]/javax.swing.JViewport[0]/[[Name:grdProducts][ClassName:com.amdocs.uif.widgets.search.SearchJTable]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" RunActionOn="OnCellRowNumColNum" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WhereColSelector="ColTitle" WhereOperator="Equals" WhereProperty="Value" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:06:39 AM" CreatedBy="s03024" Guid="5d51e1b1-dc6a-49a5-a84f-78014640c318" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowValue" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:06:39 AM" CreatedBy="s03024" Guid="b841473b-7893-4436-8f95-07b393fb3f55" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Row Number" Value="Row Number" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:06:47 AM" CreatedBy="s03024" Guid="bf72d1e1-d9a1-4652-9e2a-40e59e9db994" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:06:47 AM" CreatedBy="s03024" Guid="06161617-d31e-4ba3-b599-b75c859fb500" LastUpdate="1/1/0001 12:00:00 AM" Param="WhereColumnValue" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActTableElement>
+    <GingerCore.Actions.ActTableElement Active="True" ByRandRow="False" ByRowNum="True" BySelectedRow="False" ByWhere="False" ColSelectorValue="ColNum" ConfigOutputDS="False" ControlAction="Click" Created="3/7/2017 6:09:25 AM" CreatedBy="s03024" Description="Select AT&amp;T" EnableRetryMechanism="False" Guid="30d95e26-3943-4574-a7a7-0e6841433af0" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateColTitle="0" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/pnlContainedForm/root/pnlProducts/pnlOffers/pnlProduct1/root/crdPlan/pnlPlan/pnlPlan/pnlFrontCard/pnlProducts/grdProducts/javax.swing.JPanel[0]/com.amdocs.uif.widgets.SearchGridNative$6[0]/javax.swing.JViewport[0]/[[Name:grdProducts][ClassName:com.amdocs.uif.widgets.search.SearchJTable]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" RunActionOn="OnCellRowNumColNum" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WhereColSelector="ColTitle" WhereOperator="Equals" WhereProperty="Value" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:09:25 AM" CreatedBy="s03024" Guid="de35498e-68ce-48f4-9399-41b3bee77a5d" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowValue" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:09:25 AM" CreatedBy="s03024" Guid="6f09c05f-1d12-4ef9-b792-66b4576293db" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Row Number" Value="Row Number" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:09:31 AM" CreatedBy="s03024" Guid="07d403d1-c72b-480e-a45a-9bd7e4ee8e9f" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:09:31 AM" CreatedBy="s03024" Guid="6219ee95-bcea-46ed-93be-fb2b234ae516" LastUpdate="1/1/0001 12:00:00 AM" Param="WhereColumnValue" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActTableElement>
+    <GingerCore.Actions.ActTableElement Active="True" ByRandRow="False" ByRowNum="True" BySelectedRow="False" ByWhere="False" ColSelectorValue="ColNum" ConfigOutputDS="False" ControlAction="Click" Created="6/1/2017 6:37:42 AM" CreatedBy="s03023" Description="Select DTV" EnableRetryMechanism="False" Guid="01bc10c1-2b03-40fe-9722-2d97b734e3d9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateColTitle="0" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/pnlContainedForm/root/pnlProducts/pnlOffers/pnlProduct2/root/crdPlan/pnlPlan/pnlPlan/pnlFrontCard/pnlProducts/grdProducts/javax.swing.JPanel[0]/com.amdocs.uif.widgets.SearchGridNative$6[0]/javax.swing.JViewport[0]/[[Name:grdProducts][ClassName:com.amdocs.uif.widgets.search.SearchJTable]]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" RunActionOn="OnCellRowNumColNum" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WhereColSelector="ColTitle" WhereOperator="Equals" WhereProperty="Value" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="6/1/2017 6:37:42 AM" CreatedBy="s03023" Guid="b8b311fe-ae34-4c77-999e-db4160b2e44c" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowValue" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="6/1/2017 6:37:42 AM" CreatedBy="s03023" Guid="2a14c9a0-16a4-44c5-9974-f9a02bf59183" LastUpdate="1/1/0001 12:00:00 AM" Param="LocateRowType" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Row Number" Value="Row Number" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="6/1/2017 6:37:48 AM" CreatedBy="s03023" Guid="6c938644-a9a0-4a06-aa96-62c9e7b832d7" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="6/1/2017 6:37:48 AM" CreatedBy="s03023" Guid="085143c6-73ba-49d0-85cc-c7a9c1b6567f" LastUpdate="1/1/0001 12:00:00 AM" Param="WhereColumnValue" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActTableElement>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ConfigOutputDS="False" ControlAction="Click" Created="3/7/2017 6:13:28 AM" CreatedBy="s03024" Description="Click Next" EnableRetryMechanism="False" Guid="d39b6dbd-3e7c-49d3-a326-90d9e669179a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/7/2017 6:13:39 AM" CreatedBy="s03024" Guid="c80d1453-74d4-4067-ac6f-c1dc6cd5afb6" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

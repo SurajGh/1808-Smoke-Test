@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="252178" EnableActivitiesVariablesDependenciesControl="False" Guid="625dad6b-0b7c-45ad-b29e-40719cbec0f8" LastUpdate="9/5/2018 7:16:13 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test Non Tool" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="455">
+<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="104957" EnableActivitiesVariablesDependenciesControl="False" Guid="625dad6b-0b7c-45ad-b29e-40719cbec0f8" LastUpdate="9/5/2018 7:48:54 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test Non Tool" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="468">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Check if CRM is Running" AutomationStatus="Development" Created="1/3/2017 5:11:37 PM" CreatedBy="s03018" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="588eaca3-8962-454a-aecf-7aa7ce873942" LastUpdate="1/3/2017 5:27:01 PM" LastUpdateBy="s03018" Mandatory="True" ParentGuid="efc079f7-d677-4757-b525-213c0762fd43" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="1">
 <Acts>
@@ -521,6 +521,26 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActSetVariableValue>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Ok" EnableRetryMechanism="False" ExternalID="" Guid="85df2ecd-4b23-4a2d-881e-ad04ce6a8cc9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Ok" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="86cdd9b4-5a5c-44b1-bef2-78370ff1a8aa" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
 <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/27/2017 7:57:48 PM" CreatedBy="AVDHOOTN" Description="Set PassCode" EnableRetryMechanism="True" Guid="5aa5e8ea-9511-450d-a900-899ecd90e755" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="txtPassCode" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
@@ -895,18 +915,18 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Activity>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="AmendonProvide_IPTV_HSIA_1g" ActivityName="Create Contact Credit check" AutomationStatus="Development" Created="10/27/2017 8:19:32 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="e6a551bd-4330-4470-9597-92acf1e63348" LastUpdate="1/1/0001 12:00:00 AM" Mandatory="False" ParentGuid="eb746275-e396-4b07-9b62-ba95f1bef560" PercentAutomated="100%" TargetApplication="CRM" Version="0">
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Contact Credit check" AutomationStatus="Development" Created="10/27/2017 8:19:32 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="089c4e0b-f2af-4e4c-93a4-8de3dbdd3e26" LastUpdate="5/9/2018 2:52:08 PM" LastUpdateBy="s06146" Mandatory="False" ParentGuid="91a0bb08-ed6c-4827-b5f3-9eeeab0bbeb9" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="4">
 <Acts>
-<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Change Credit risk category to Low" EnableRetryMechanism="False" ExternalID="" Guid="9c011346-224c-4052-876e-e30366b2fb53" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="subformpnlDisplayCredit:cmbCreditRisk" MaxNumberOfRetries="2" ParentGuid="09d87c08-1e86-4eb7-81e9-2c4b80133742" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Change Credit risk category to Low" EnableRetryMechanism="False" ExternalID="" Guid="566599f1-7d6c-42dd-b3d3-5bf268727e63" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="subformpnlDisplayCredit:cmbCreditRisk" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
 <FlowControls>
-<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="5/7/2018 11:01:15 AM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="7abbd9ad-108c-46a8-80ff-db318ff839cb" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="41820e0f-8d68-418c-a9e5-870833e7c5cc#GUID_NAME#Click Next on Credit check page" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="5/7/2018 11:01:15 AM" CreatedBy="s06125" FlowControlAction="GoToAction" Guid="29d0947f-6276-4e99-b9aa-48212cb9d717" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="6e2c365f-893c-49ea-a6bc-028167ed73bb#GUID_NAME#Click Next in case credit risk was not changed" Version="0" />
 </FlowControls>
 
 <InputValues>
-<Amdocs.Ginger.Repository.ActInputValue Guid="886ade60-5656-40bb-bb4e-6853099e5d8d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Low" Value="Low" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="d8531ad0-da77-4a44-b167-f52451321025" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Low" Value="Low" />
 </InputValues>
 
 <ReturnValues>
@@ -918,15 +938,16 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActASCFControl>
-<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click next" EnableRetryMechanism="True" ExternalID="" Guid="936ece0b-a31e-46ef-bb97-d720701f5337" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnSave" MaxNumberOfRetries="2" ParentGuid="c7eec58f-d79d-470d-8c63-abc70d60d258" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Next in case credit risk was changed" EnableRetryMechanism="True" ExternalID="" Guid="d51bf552-af06-40d4-876f-9feaac52374f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnSave" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
 <FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{ActionStatus}&quot; = &quot;Passed&quot;" Created="9/5/2018 7:44:00 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="648cfe14-1b70-4246-a797-616c78e5ebf9" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="3b429bcd-ef9f-4c28-a11d-44a83b7dd68e#GUID_NAME#Click Next on Credit check page" Version="0" />
 </FlowControls>
 
 <InputValues>
-<Amdocs.Ginger.Repository.ActInputValue Guid="0da5cf37-b62c-42dd-8656-e53ac4f91fe2" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="68937f73-032b-416f-a9f5-19cbb9f7ae29" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
 </InputValues>
 
 <ReturnValues>
@@ -938,7 +959,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActASCFControl>
-<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Next on Credit check page" EnableRetryMechanism="True" Guid="41820e0f-8d68-418c-a9e5-870833e7c5cc" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNext" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Next in case credit risk was not changed" EnableRetryMechanism="True" ExternalID="" Guid="6e2c365f-893c-49ea-a6bc-028167ed73bb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnSave" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -946,7 +967,7 @@
 </FlowControls>
 
 <InputValues>
-<Amdocs.Ginger.Repository.ActInputValue Guid="67aa9d20-badf-49cb-802b-1458e1efeb24" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="ad8753bb-7697-436c-b13a-4e4ba2fbcd9e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" />
 </InputValues>
 
 <ReturnValues>
@@ -958,7 +979,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActASCFControl>
-<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Ok" EnableRetryMechanism="False" Guid="22a54d8c-c153-4ca9-a5bc-09aaf8c478c9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Ok" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Ok" EnableRetryMechanism="False" ExternalID="" Guid="48131b45-a01e-43d0-be80-3945631928d9" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Ok" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -966,7 +987,7 @@
 </FlowControls>
 
 <InputValues>
-<Amdocs.Ginger.Repository.ActInputValue Guid="1004f65f-79f6-488b-ade5-59c2325a1023" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="fb59b3d3-8227-48a3-9b77-ad347aeea2e3" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 
 <ReturnValues>
@@ -978,7 +999,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActASCFControl>
-<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Next on USPS validation" EnableRetryMechanism="False" Guid="f9c18ec2-13b1-440b-8bb1-b43db0f26931" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNext" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Next on Credit check page" EnableRetryMechanism="True" ExternalID="" Guid="3b429bcd-ef9f-4c28-a11d-44a83b7dd68e" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNext" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -986,7 +1007,47 @@
 </FlowControls>
 
 <InputValues>
-<Amdocs.Ginger.Repository.ActInputValue Guid="73849692-9ddd-4cac-b428-af9c64af0600" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="6bddbd9a-efc9-4ca2-8412-510245ec3f86" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Ok" EnableRetryMechanism="False" ExternalID="" Guid="f31b89dd-db37-4775-90d0-c9f52495fd6a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Ok" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="AlwaysPass" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="2d810134-34b7-46e8-83a6-74d84e53cc92" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActASCFControl>
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Click Next on USPS validation" EnableRetryMechanism="False" ExternalID="" Guid="69b2f667-1d6b-4ad1-9826-c1544bf21389" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNext" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<Amdocs.Ginger.Repository.ActInputValue Guid="24858f0e-8189-41c4-944b-c4103dee4c95" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
 
 <ReturnValues>
@@ -1007,6 +1068,10 @@
 </Tags>
 
 <Variables>
+<GingerCore.Variables.VariableString Created="5/1/2018 4:31:56 AM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="dc8e4810-c605-4cef-a0a4-32154dec4695" InitialStringValue="Low" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="CreditRisk" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Low" VarValChanged="False" Version="0">
+<Tags>
+</Tags>
+</GingerCore.Variables.VariableString>
 </Variables>
 
 <VariablesDependencies>
@@ -1038,11 +1103,12 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActDummy>
-<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 6:07:13 AM" CreatedBy="AVDHOOTN" Description="Click OK on message" EnableRetryMechanism="False" ExternalID="" Guid="1cd6c6d5-96ec-42b8-9ca5-6e70ebc26e64" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Ok" MaxNumberOfRetries="2" ParentGuid="30fc4396-1a6a-4603-96fd-cea47e4b6235" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 6:07:13 AM" CreatedBy="AVDHOOTN" Description="Click OK on message" EnableRetryMechanism="False" ExternalID="" Guid="1cd6c6d5-96ec-42b8-9ca5-6e70ebc26e64" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="Ok" MaxNumberOfRetries="2" ParentGuid="30fc4396-1a6a-4603-96fd-cea47e4b6235" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
 <FlowControls>
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{ActionStatus}&quot; = &quot;Failed&quot;" Created="9/5/2018 7:26:55 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToNextActivity" Guid="d82a74c4-5185-41f1-8389-6a7a23de5a6f" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
 </FlowControls>
 
 <InputValues>
@@ -3258,7 +3324,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="26467606-c6d3-41e8-83be-5e897d8e749c" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="391950" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="26467606-c6d3-41e8-83be-5e897d8e749c" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="766326" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableRandomNumber>
@@ -3298,7 +3364,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:14 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="2d216363-f819-4229-9756-b2f9954618ab" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:29 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Password" ParentGuid="c450bc83-a39e-4116-a78d-5f334ea5f657" SetAsInputValue="True" SetAsOutputValue="True" Value="xx9381" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:14 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="2d216363-f819-4229-9756-b2f9954618ab" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:29 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Password" ParentGuid="c450bc83-a39e-4116-a78d-5f334ea5f657" SetAsInputValue="True" SetAsOutputValue="True" Value="x0770" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3330,7 +3396,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:03 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="a38d9c0d-4fe9-4604-87f7-2bd13dd738eb" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:28 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="USerId" ParentGuid="5572f417-c3bb-45f5-a47d-da55c9ba3ede" SetAsInputValue="True" SetAsOutputValue="True" Value="xx9381" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:03 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="a38d9c0d-4fe9-4604-87f7-2bd13dd738eb" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:28 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="USerId" ParentGuid="5572f417-c3bb-45f5-a47d-da55c9ba3ede" SetAsInputValue="True" SetAsOutputValue="True" Value="xx0770" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

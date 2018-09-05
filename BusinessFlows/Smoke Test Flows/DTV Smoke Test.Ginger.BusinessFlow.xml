@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="1/5/2018 7:12:15 AM" CreatedBy="AVDHOOTN" Elapsed="90460" EnableActivitiesVariablesDependenciesControl="False" Guid="496f7176-ddd1-4ade-ba50-85826a45c80d" LastUpdate="9/5/2018 5:43:48 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="DTV Smoke Test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="359">
+<GingerCore.BusinessFlow Active="True" Created="1/5/2018 7:12:15 AM" CreatedBy="AVDHOOTN" Elapsed="90460" EnableActivitiesVariablesDependenciesControl="False" Guid="496f7176-ddd1-4ade-ba50-85826a45c80d" LastUpdate="9/5/2018 7:48:55 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="DTV Smoke Test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="363">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Launch Smoke Test Tool" AutomationStatus="Development" Created="1/5/2018 5:24:09 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="f8ace119-f7f1-47d0-b74b-dd39cf4c2936" LastUpdate="1/5/2018 7:38:40 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="ae32cb73-bc09-48ba-93f7-012bf892e914" PercentAutomated="100%" TargetApplication="IE" Version="2">
 <Acts>
@@ -1971,7 +1971,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Actions.ActGenElement>
-<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="1/30/2017 6:10:45 AM" CreatedBy="s02935" Description="Select Genie Reciver" EnableRetryMechanism="True" GenElementAction="Click" Guid="ea171b6f-0757-4d0f-b6da-5f680cfe7910" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='Genie Receivers']/..//button[@class='quantity-button qnttyplus']" MaxNumberOfRetries="5" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WindowsToCapture="DesktopScreen">
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="1/30/2017 6:10:45 AM" CreatedBy="s02935" Description="Select Genie Reciver" EnableRetryMechanism="True" GenElementAction="Click" Guid="ea171b6f-0757-4d0f-b6da-5f680cfe7910" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='Genie Receivers']/..//button[@class='quantity-button qnttyplus']" MaxNumberOfRetries="7" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="2" StatusConverter="None" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="2" WindowsToCapture="DesktopScreen">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -2806,7 +2806,7 @@
 </GingerCore.Activity>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Negotiate Reason Codes Screen" AutomationStatus="Development" Created="10/30/2017 7:09:55 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="9e3de104-93d0-40e6-8679-e317ac8fa838" LastUpdate="6/6/2018 6:14:14 AM" LastUpdateBy="s06125" Mandatory="False" ParentGuid="aca17615-fcc6-40b4-a19d-6b232a505904" PercentAutomated="100%" TargetApplication="CRM" Version="3">
 <Acts>
-<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Text" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Check if internet option shown on NRC" EnableRetryMechanism="False" ExternalID="" Guid="d05ac4d3-0741-4d12-8717-aec1fe81d483" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;Internet&quot;]]" MaxNumberOfRetries="2" ParentGuid="ff2fb88b-bd7c-4f50-b870-ebd4abe7de0d" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+<GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="GetControlProperty" ControlProperty="Text" Created="10/30/2017 7:11:30 AM" CreatedBy="AVDHOOTN" Description="Check if internet option shown on NRC" EnableRetryMechanism="False" ExternalID="" Guid="d05ac4d3-0741-4d12-8717-aec1fe81d483" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:gridReasons/[name=&quot;colCmbReasonValue&quot;]:[[name=&quot;colLblService&quot;]:[value=~&quot;Internet&quot;]]" MaxNumberOfRetries="2" ParentGuid="ff2fb88b-bd7c-4f50-b870-ebd4abe7de0d" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="20" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
 </DSOutputConfigParams>
 
@@ -5184,7 +5184,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="e26a36ef-3f8f-4e9a-9203-11af39b8f816" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="755847" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="e26a36ef-3f8f-4e9a-9203-11af39b8f816" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="690737" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableRandomNumber>

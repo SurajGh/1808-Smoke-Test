@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="1286314" EnableActivitiesVariablesDependenciesControl="False" Guid="8c0c3d3a-dd20-47bb-a1d4-c84992fce803" LastUpdate="9/5/2018 5:54:25 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="446">
+<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="1286314" EnableActivitiesVariablesDependenciesControl="False" Guid="8c0c3d3a-dd20-47bb-a1d4-c84992fce803" LastUpdate="9/5/2018 7:16:14 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="449">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Launch Smoke Test Tool" AutomationStatus="Automated" Created="1/5/2018 5:24:09 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="eb1e97df-65aa-4cea-8073-7eb33e78ec7f" LastUpdate="1/5/2018 7:38:40 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="ae32cb73-bc09-48ba-93f7-012bf892e914" PercentAutomated="100%" TargetApplication="IE" Version="2">
 <Acts>
@@ -623,7 +623,7 @@
 </FlowControls>
 
 <InputValues>
-<Amdocs.Ginger.Repository.ActInputValue Guid="dace87d2-4c9b-44b7-a492-a096c31671d1" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="xx9381" Value="xx9381" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="dace87d2-4c9b-44b7-a492-a096c31671d1" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=Password}" Value="{Var Name=Password}" />
 <Amdocs.Ginger.Repository.ActInputValue Guid="802dc47e-fbe9-4450-9e8a-bfe78452060a" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <Amdocs.Ginger.Repository.ActInputValue Guid="1b30c530-81cb-469d-94c8-1930fb4fb1ac" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
@@ -4173,7 +4173,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="d6848427-5d06-4981-8156-32263b0a8061" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="766067" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="d6848427-5d06-4981-8156-32263b0a8061" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="997334" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableRandomNumber>

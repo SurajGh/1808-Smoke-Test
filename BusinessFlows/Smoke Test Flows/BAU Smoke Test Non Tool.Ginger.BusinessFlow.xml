@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="1286314" EnableActivitiesVariablesDependenciesControl="False" Guid="625dad6b-0b7c-45ad-b29e-40719cbec0f8" LastUpdate="9/5/2018 5:43:47 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test Non Tool" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="447">
+<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="252178" EnableActivitiesVariablesDependenciesControl="False" Guid="625dad6b-0b7c-45ad-b29e-40719cbec0f8" LastUpdate="9/5/2018 7:16:13 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test Non Tool" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="455">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Check if CRM is Running" AutomationStatus="Development" Created="1/3/2017 5:11:37 PM" CreatedBy="s03018" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="588eaca3-8962-454a-aecf-7aa7ce873942" LastUpdate="1/3/2017 5:27:01 PM" LastUpdateBy="s03018" Mandatory="True" ParentGuid="efc079f7-d677-4757-b525-213c0762fd43" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="1">
 <Acts>
@@ -199,7 +199,7 @@
 </FlowControls>
 
 <InputValues>
-<Amdocs.Ginger.Repository.ActInputValue Guid="44ec4cec-a10f-4aa5-891c-94302f0e6d6d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="xx9381" Value="xx9381" />
+<Amdocs.Ginger.Repository.ActInputValue Guid="44ec4cec-a10f-4aa5-891c-94302f0e6d6d" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=Password}" Value="{Var Name=Password}" />
 <Amdocs.Ginger.Repository.ActInputValue Guid="8a602d59-613c-46fb-a7b1-3d18beb12db1" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <Amdocs.Ginger.Repository.ActInputValue Guid="f6f3fcfa-b28f-437a-ad13-b9d35fdf58ab" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </InputValues>
@@ -3258,7 +3258,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="26467606-c6d3-41e8-83be-5e897d8e749c" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="693686" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="26467606-c6d3-41e8-83be-5e897d8e749c" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="391950" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableRandomNumber>
@@ -3270,7 +3270,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:20:46 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="e8ac8a7b-c18b-424c-9159-a4c28b8dd27a" InitialStringValue="George" LastUpdate="11/1/2017 7:07:17 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="FirstName" ParentGuid="482366d8-5798-47b5-9fe6-df90da7a8e09" SetAsInputValue="True" SetAsOutputValue="True" Value="George" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:20:46 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="e8ac8a7b-c18b-424c-9159-a4c28b8dd27a" InitialStringValue="George" LastUpdate="11/1/2017 7:07:17 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="FirstName" ParentGuid="482366d8-5798-47b5-9fe6-df90da7a8e09" SetAsInputValue="True" SetAsOutputValue="True" Value="Donald" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3282,7 +3282,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:37 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="75ad7b67-29d3-4065-9e15-b4a45b75b4ce" InitialStringValue="1000" LastUpdate="11/1/2017 7:07:31 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="InternetPackage" ParentGuid="44777104-2fc3-401c-aa5f-ee42eaccab8d" SetAsInputValue="True" SetAsOutputValue="True" Value="1000" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:37 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="75ad7b67-29d3-4065-9e15-b4a45b75b4ce" InitialStringValue="1000" LastUpdate="11/1/2017 7:07:31 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="InternetPackage" ParentGuid="44777104-2fc3-401c-aa5f-ee42eaccab8d" SetAsInputValue="True" SetAsOutputValue="True" Value="6" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3298,7 +3298,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:14 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="2d216363-f819-4229-9756-b2f9954618ab" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:29 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Password" ParentGuid="c450bc83-a39e-4116-a78d-5f334ea5f657" SetAsInputValue="True" SetAsOutputValue="True" Value="aj1114" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:14 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="2d216363-f819-4229-9756-b2f9954618ab" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:29 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Password" ParentGuid="c450bc83-a39e-4116-a78d-5f334ea5f657" SetAsInputValue="True" SetAsOutputValue="True" Value="xx9381" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3306,7 +3306,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:22:31 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="0697a985-ce5b-44e4-9cd0-db04994e7082" InitialStringValue="666308899" LastUpdate="11/1/2017 7:07:26 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="SSN" ParentGuid="56f4546b-fc74-4916-ab23-2b92fc9f65bc" SetAsInputValue="True" SetAsOutputValue="True" Value="666308899" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:22:31 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="0697a985-ce5b-44e4-9cd0-db04994e7082" InitialStringValue="666308899" LastUpdate="11/1/2017 7:07:26 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="SSN" ParentGuid="56f4546b-fc74-4916-ab23-2b92fc9f65bc" SetAsInputValue="True" SetAsOutputValue="True" Value="666034545" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3322,7 +3322,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:22:11 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="21241a01-dd09-4c7e-96c7-08a925d9cd18" InitialStringValue="" LastUpdate="11/1/2017 7:07:24 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="UnitType" ParentGuid="ab70613c-2bcc-4fe5-82c7-1e5ab06ace5c" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:22:11 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="21241a01-dd09-4c7e-96c7-08a925d9cd18" InitialStringValue="" LastUpdate="11/1/2017 7:07:24 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="UnitType" ParentGuid="ab70613c-2bcc-4fe5-82c7-1e5ab06ace5c" SetAsInputValue="True" SetAsOutputValue="True" Value="Please Specify" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3330,7 +3330,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:03 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="a38d9c0d-4fe9-4604-87f7-2bd13dd738eb" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:28 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="USerId" ParentGuid="5572f417-c3bb-45f5-a47d-da55c9ba3ede" SetAsInputValue="True" SetAsOutputValue="True" Value="aj1114" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:03 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="a38d9c0d-4fe9-4604-87f7-2bd13dd738eb" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:28 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="USerId" ParentGuid="5572f417-c3bb-45f5-a47d-da55c9ba3ede" SetAsInputValue="True" SetAsOutputValue="True" Value="xx9381" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

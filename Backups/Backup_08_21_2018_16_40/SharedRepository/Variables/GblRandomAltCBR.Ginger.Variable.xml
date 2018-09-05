@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.6.0.0-->
-<GingerCore.Variables.VariableRandomNumber Created="4/2/2015 4:15:36 PM" CreatedBy="SHWETAK" CycleCount="10" Description="Variable Random" Guid="29eda898-81df-433a-b213-cb09340481f2" Interval="1" IsInteger="True" LastUpdate="6/15/2015 3:30:27 PM" LastUpdateBy="SHWETAK" Max="9999" Min="1000" Name="GblRandomAltCBR" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4275" Version="2" />

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.Variables.VariableString Created="1/5/2018 6:02:39 AM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="f05f586e-7de2-42b3-9dc5-c580a524e0dc" InitialStringValue="PR" LastUpdate="1/5/2018 7:50:43 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="OAID" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="PR" VarValChanged="False" Version="1">
-  <Tags></Tags>
-</GingerCore.Variables.VariableString>

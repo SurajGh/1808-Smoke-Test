@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="1b973982-0ca5-40f2-b8f5-72f874d057dd" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="744183" VarValChanged="False" Version="1">
-  <Tags></Tags>
-</GingerCore.Variables.VariableRandomNumber>

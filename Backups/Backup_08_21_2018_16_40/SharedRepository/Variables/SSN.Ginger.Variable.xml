@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.6.0.0-->
-<GingerCore.Variables.VariableString Created="10/27/2017 7:22:31 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="56f4546b-fc74-4916-ab23-2b92fc9f65bc" InitialStringValue="666308899" LastUpdate="11/1/2017 7:07:26 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="SSN" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="666308899" VarValChanged="False" Version="1">
-  <Tags></Tags>
-</GingerCore.Variables.VariableString>

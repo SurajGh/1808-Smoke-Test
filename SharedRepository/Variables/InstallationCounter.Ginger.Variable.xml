@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.Variables.VariableString Created="12/15/2016 4:26:18 PM" CreatedBy="KHYATIS" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="a55ff5fe-e2fb-4a8b-89e2-feff704a531e" InitialStringValue="2" LastUpdate="1/24/2017 3:10:06 PM" LastUpdateBy="s03019" Name="InstallationCounter" ParentGuid="d19efc5f-2fe3-4e2e-9f82-f7b03d3a3708" ParentName="GblConfigureInstall" ParentType="Activity" Value="2" Version="1" />

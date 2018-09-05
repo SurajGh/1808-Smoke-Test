@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.Variables.VariableString Created="10/27/2017 7:21:33 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="10bfa88f-968c-429f-b3e4-ef9adcc40fea" InitialStringValue="an363c@att.com" LastUpdate="11/1/2017 7:07:20 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Email" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="an363c@att.com" VarValChanged="False" Version="1">
-  <Tags></Tags>
-</GingerCore.Variables.VariableString>

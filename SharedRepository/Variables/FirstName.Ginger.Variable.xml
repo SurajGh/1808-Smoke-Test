@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.Variables.VariableString Created="10/27/2017 7:20:46 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="482366d8-5798-47b5-9fe6-df90da7a8e09" InitialStringValue="George" LastUpdate="11/1/2017 7:07:17 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="FirstName" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="George" VarValChanged="False" Version="1">
-  <Tags></Tags>
-</GingerCore.Variables.VariableString>

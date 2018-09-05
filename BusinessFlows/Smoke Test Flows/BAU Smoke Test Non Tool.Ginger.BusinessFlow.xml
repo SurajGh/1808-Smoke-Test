@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="104957" EnableActivitiesVariablesDependenciesControl="False" Guid="625dad6b-0b7c-45ad-b29e-40719cbec0f8" LastUpdate="9/5/2018 7:48:54 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test Non Tool" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="468">
+<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="104957" EnableActivitiesVariablesDependenciesControl="False" Guid="625dad6b-0b7c-45ad-b29e-40719cbec0f8" LastUpdate="9/5/2018 9:25:44 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test Non Tool" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="474">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Check if CRM is Running" AutomationStatus="Development" Created="1/3/2017 5:11:37 PM" CreatedBy="s03018" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="588eaca3-8962-454a-aecf-7aa7ce873942" LastUpdate="1/3/2017 5:27:01 PM" LastUpdateBy="s03018" Mandatory="True" ParentGuid="efc079f7-d677-4757-b525-213c0762fd43" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="1">
 <Acts>
@@ -915,7 +915,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Activity>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Contact Credit check" AutomationStatus="Development" Created="10/27/2017 8:19:32 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="089c4e0b-f2af-4e4c-93a4-8de3dbdd3e26" LastUpdate="5/9/2018 2:52:08 PM" LastUpdateBy="s06146" Mandatory="False" ParentGuid="91a0bb08-ed6c-4827-b5f3-9eeeab0bbeb9" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="4">
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Contact Credit check" AutomationStatus="Development" Created="10/27/2017 8:19:32 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="089c4e0b-f2af-4e4c-93a4-8de3dbdd3e26" LastUpdate="5/9/2018 2:52:08 PM" LastUpdateBy="s06146" Mandatory="False" ParentGuid="91a0bb08-ed6c-4827-b5f3-9eeeab0bbeb9" PercentAutomated="100%" TargetApplication="CRM" Version="4">
 <Acts>
 <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Change Credit risk category to Low" EnableRetryMechanism="False" ExternalID="" Guid="566599f1-7d6c-42dd-b3d3-5bf268727e63" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="subformpnlDisplayCredit:cmbCreditRisk" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
@@ -2589,8 +2589,8 @@
 <GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms3at05&quot;" Created="4/21/2018 7:13:31 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="9eb83ff9-ffd3-458b-9974-aec68f08a436" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="49c0b488-dcdf-40fe-b4af-7a8bebc82884#GUID_NAME#Set Segment Value OMS3" Version="0" />
 <GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms1at03&quot;" Created="4/21/2018 7:13:43 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="774dabce-682f-4597-92bd-fe30a453b832" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4c88a665-809b-47d8-9b6a-09083ad0135a#GUID_NAME#Set Segment Value OMS1" Version="0" />
 <GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms2at03&quot;" Created="4/21/2018 7:13:53 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="3ab8803b-6c1d-44f6-a386-42fe901e9d85" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1f692b1f-2653-4c6d-ae52-3fd1a4c0f7b7#GUID_NAME#Set Segment Value OMS2" Version="0" />
-<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms0af10&quot;" Created="4/21/2018 7:14:06 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="1d5fabe2-a9f4-4213-9f63-4fe7f6ef4533" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="49c0b488-dcdf-40fe-b4af-7a8bebc82884#GUID_NAME#Set Segment Value OMS3" Version="0" />
-<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms0af11&quot;" Created="4/21/2018 7:14:35 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="279c62e7-3eb6-48e2-9ca5-f368c5ad71c9" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="f5ee3d23-9dd1-4193-b5ae-2d3faf27e095#GUID_NAME#Set Segment Value OMS4" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms0af10&quot;" Created="4/21/2018 7:14:06 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="1d5fabe2-a9f4-4213-9f63-4fe7f6ef4533" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4c88a665-809b-47d8-9b6a-09083ad0135a#GUID_NAME#Set Segment Value OMS1" Version="0" />
+<GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms0af11&quot;" Created="4/21/2018 7:14:35 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="279c62e7-3eb6-48e2-9ca5-f368c5ad71c9" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1f692b1f-2653-4c6d-ae52-3fd1a4c0f7b7#GUID_NAME#Set Segment Value OMS2" Version="0" />
 <GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms0ct06&quot;" Created="4/21/2018 7:14:47 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="25c8ea6f-6481-4766-9175-08dfba9b23fe" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4c88a665-809b-47d8-9b6a-09083ad0135a#GUID_NAME#Set Segment Value OMS1" Version="0" />
 <GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms0at06&quot;" Created="4/21/2018 7:15:00 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="6f831b84-1e9a-4ddb-afa0-66918b5fb890" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4c88a665-809b-47d8-9b6a-09083ad0135a#GUID_NAME#Set Segment Value OMS1" Version="0" />
 <GingerCore.FlowControlLib.FlowControl Active="True" BusinessFlowControlAction="0" Condition="&quot;{Var Name=Segment }&quot; = &quot;oms1at05&quot;" Created="4/21/2018 7:15:12 AM" CreatedBy="AVDHOOTN" FlowControlAction="GoToAction" Guid="b5de8c77-27b7-459b-8f22-e0e170c8c0d9" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="4c88a665-809b-47d8-9b6a-09083ad0135a#GUID_NAME#Set Segment Value OMS1" Version="0" />
@@ -3324,7 +3324,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="26467606-c6d3-41e8-83be-5e897d8e749c" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="766326" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="26467606-c6d3-41e8-83be-5e897d8e749c" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="751953" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableRandomNumber>
@@ -3336,7 +3336,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:20:46 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="e8ac8a7b-c18b-424c-9159-a4c28b8dd27a" InitialStringValue="George" LastUpdate="11/1/2017 7:07:17 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="FirstName" ParentGuid="482366d8-5798-47b5-9fe6-df90da7a8e09" SetAsInputValue="True" SetAsOutputValue="True" Value="Donald" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:20:46 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="e8ac8a7b-c18b-424c-9159-a4c28b8dd27a" InitialStringValue="George" LastUpdate="11/1/2017 7:07:17 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="FirstName" ParentGuid="482366d8-5798-47b5-9fe6-df90da7a8e09" SetAsInputValue="True" SetAsOutputValue="True" Value="George" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3348,7 +3348,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:37 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="75ad7b67-29d3-4065-9e15-b4a45b75b4ce" InitialStringValue="1000" LastUpdate="11/1/2017 7:07:31 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="InternetPackage" ParentGuid="44777104-2fc3-401c-aa5f-ee42eaccab8d" SetAsInputValue="True" SetAsOutputValue="True" Value="6" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:37 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="75ad7b67-29d3-4065-9e15-b4a45b75b4ce" InitialStringValue="1000" LastUpdate="11/1/2017 7:07:31 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="InternetPackage" ParentGuid="44777104-2fc3-401c-aa5f-ee42eaccab8d" SetAsInputValue="True" SetAsOutputValue="True" Value="1000" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3364,7 +3364,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:14 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="2d216363-f819-4229-9756-b2f9954618ab" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:29 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Password" ParentGuid="c450bc83-a39e-4116-a78d-5f334ea5f657" SetAsInputValue="True" SetAsOutputValue="True" Value="x0770" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:14 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="2d216363-f819-4229-9756-b2f9954618ab" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:29 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="Password" ParentGuid="c450bc83-a39e-4116-a78d-5f334ea5f657" SetAsInputValue="True" SetAsOutputValue="True" Value="aj1114" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3372,7 +3372,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:22:31 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="0697a985-ce5b-44e4-9cd0-db04994e7082" InitialStringValue="666308899" LastUpdate="11/1/2017 7:07:26 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="SSN" ParentGuid="56f4546b-fc74-4916-ab23-2b92fc9f65bc" SetAsInputValue="True" SetAsOutputValue="True" Value="666034545" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:22:31 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="0697a985-ce5b-44e4-9cd0-db04994e7082" InitialStringValue="666308899" LastUpdate="11/1/2017 7:07:26 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="SSN" ParentGuid="56f4546b-fc74-4916-ab23-2b92fc9f65bc" SetAsInputValue="True" SetAsOutputValue="True" Value="666308899" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3388,7 +3388,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:22:11 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="21241a01-dd09-4c7e-96c7-08a925d9cd18" InitialStringValue="" LastUpdate="11/1/2017 7:07:24 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="UnitType" ParentGuid="ab70613c-2bcc-4fe5-82c7-1e5ab06ace5c" SetAsInputValue="True" SetAsOutputValue="True" Value="Please Specify" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:22:11 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="21241a01-dd09-4c7e-96c7-08a925d9cd18" InitialStringValue="" LastUpdate="11/1/2017 7:07:24 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="UnitType" ParentGuid="ab70613c-2bcc-4fe5-82c7-1e5ab06ace5c" SetAsInputValue="True" SetAsOutputValue="True" Value="" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
@@ -3396,7 +3396,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableString Created="10/27/2017 7:23:03 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="a38d9c0d-4fe9-4604-87f7-2bd13dd738eb" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:28 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="USerId" ParentGuid="5572f417-c3bb-45f5-a47d-da55c9ba3ede" SetAsInputValue="True" SetAsOutputValue="True" Value="xx0770" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableString Created="10/27/2017 7:23:03 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="a38d9c0d-4fe9-4604-87f7-2bd13dd738eb" InitialStringValue="aj1114" LastUpdate="11/1/2017 7:07:28 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Name="USerId" ParentGuid="5572f417-c3bb-45f5-a47d-da55c9ba3ede" SetAsInputValue="True" SetAsOutputValue="True" Value="aj1114" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>

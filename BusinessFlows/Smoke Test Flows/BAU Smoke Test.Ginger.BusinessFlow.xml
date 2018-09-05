@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--Ginger Repository Item created with version: 2.7.0.0-->
-<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="1286314" EnableActivitiesVariablesDependenciesControl="False" Guid="8c0c3d3a-dd20-47bb-a1d4-c84992fce803" LastUpdate="9/5/2018 7:51:15 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="456">
+<GingerCore.BusinessFlow Active="True" Created="1/4/2018 6:43:00 PM" CreatedBy="AVDHOOTN" Elapsed="1286314" EnableActivitiesVariablesDependenciesControl="False" Guid="8c0c3d3a-dd20-47bb-a1d4-c84992fce803" LastUpdate="9/5/2018 11:51:45 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" Name="BAU Smoke Test" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Version="461">
 <Activities>
 <GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Launch Smoke Test Tool" AutomationStatus="Automated" Created="1/5/2018 5:24:09 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="eb1e97df-65aa-4cea-8073-7eb33e78ec7f" LastUpdate="1/5/2018 7:38:40 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="ae32cb73-bc09-48ba-93f7-012bf892e914" PercentAutomated="100%" TargetApplication="IE" Version="2">
 <Acts>
@@ -1339,7 +1339,7 @@
 <VariablesDependencies>
 </VariablesDependencies>
 </GingerCore.Activity>
-<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Contact Credit check" AutomationStatus="Development" Created="10/27/2017 8:19:32 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="42ecb7f5-6798-452b-955c-839477f867fe" LastUpdate="9/5/2018 7:48:01 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="91a0bb08-ed6c-4827-b5f3-9eeeab0bbeb9" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="5">
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Create Contact Credit check" AutomationStatus="Development" Created="10/27/2017 8:19:32 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" ExternalID="" Guid="42ecb7f5-6798-452b-955c-839477f867fe" LastUpdate="9/5/2018 7:48:01 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="91a0bb08-ed6c-4827-b5f3-9eeeab0bbeb9" PercentAutomated="100%" TargetApplication="CRM" Version="5">
 <Acts>
 <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="10/27/2017 8:20:25 PM" CreatedBy="AVDHOOTN" Description="Change Credit risk category to Low" EnableRetryMechanism="False" ExternalID="" Guid="e88b5d40-18fa-4ccd-b615-9fa2569680fa" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="subformpnlDisplayCredit:cmbCreditRisk" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
 <DSOutputConfigParams>
@@ -4238,7 +4238,7 @@
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableString>
-<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="d6848427-5d06-4981-8156-32263b0a8061" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="997334" VarValChanged="False" Version="1">
+<GingerCore.Variables.VariableRandomNumber Created="10/27/2017 7:23:55 PM" CreatedBy="AVDHOOTN" DiffrentFromOrigin="False" Guid="d6848427-5d06-4981-8156-32263b0a8061" Interval="0" IsInteger="True" LastUpdate="11/1/2017 7:07:33 AM" LastUpdateBy="AVDHOOTN" MappedOutputType="None" Max="999999" Min="111111" Name="CBRRandom" ParentGuid="1b973982-0ca5-40f2-b8f5-72f874d057dd" SetAsInputValue="True" SetAsOutputValue="True" Value="667345" VarValChanged="False" Version="1">
 <Tags>
 </Tags>
 </GingerCore.Variables.VariableRandomNumber>

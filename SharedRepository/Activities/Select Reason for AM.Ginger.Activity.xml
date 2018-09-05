@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Select Reason for AM" AutomationStatus="Development" Created="11/1/2017 6:20:47 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="e24557a5-e895-4bdd-8481-c92cffe7ed3b" LastUpdate="11/1/2017 7:14:46 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="SetValue" ControlProperty="NA" Created="11/1/2017 6:20:43 AM" CreatedBy="AVDHOOTN" Description="Set Reason for OA" EnableRetryMechanism="False" Guid="9ec0949d-1221-48f7-828a-93bfb76f5e37" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:cmbDescription" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 6:20:43 AM" CreatedBy="AVDHOOTN" Guid="0a9c1a3b-f3b7-4b0d-9f02-53625e76f73c" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="Service Change / Self-to-Tech Install" Value="Service Change / Self-to-Tech Install" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 6:20:43 AM" CreatedBy="AVDHOOTN" Description="Click Next" EnableRetryMechanism="False" Guid="46ed19af-928c-47c4-8b66-6340e6ef78a5" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNextStep" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 6:20:43 AM" CreatedBy="AVDHOOTN" Guid="81efca8f-eb31-43a4-80fc-d2edf7f5c18a" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

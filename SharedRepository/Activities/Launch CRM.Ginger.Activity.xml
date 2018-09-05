@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="False" ActivityName="Launch CRM" AutomationStatus="Development" Created="10/27/2017 6:17:32 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="9ae35cd6-6d70-42d1-98fd-5a158355cd2b" LastUpdate="11/1/2017 7:14:26 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActLaunchJavaWSApplication Active="True" ConfigOutputDS="False" Created="10/27/2017 6:17:58 PM" CreatedBy="AVDHOOTN" Description="Launch Java Application" EnableRetryMechanism="False" ExternalID="" Guid="d92eb9f5-cf6e-4621-a22c-288c737e9a58" JavaAgentPath="" JavaWSEXEPath="C:\Program Files (x86)\Java\jdk1.7.0_79\bin" LastUpdate="1/1/0001 12:00:00 AM" LaunchJavaApplication="True" LaunchWithAgent="False" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="a4fa23f1-d522-4b9c-aeed-f37f5e5c8ef3" Platform="NA" Port="8888" RetryMechanismInterval="5" ShowAgent="True" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" URL="{EnvParam App=CRM Param=URL}" Version="0" Wait="0" WaitForWindowTitle="Login" WaitForWindowTitleMaxTime="360" WaitForWindowWhenDoingLaunch="True" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues></InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActLaunchJavaWSApplication>
+    <GingerCore.Actions.ActScript Active="True" ConfigOutputDS="False" Created="10/27/2017 6:20:10 PM" CreatedBy="AVDHOOTN" Description="Script Action" EnableRetryMechanism="False" ExternalID="" Guid="2d7429e4-7f2f-4a5a-8561-b0af1eb02585" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="8c2bab20-9218-4048-85ab-bc4b96916bf5" Platform="NA" RetryMechanismInterval="5" ScriptCommand="Script" ScriptInterpreterType="VBS" ScriptName="LaunchCRM.vbs" ScriptPath="C:\Users\avdhootn\Desktop\P1 regression Ginger\P1 regression batch 1\\Documents\Scripts\" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/27/2017 6:20:20 PM" CreatedBy="AVDHOOTN" Guid="4ffb2e53-85b2-439f-8d15-c211a7499f80" LastUpdate="1/1/0001 12:00:00 AM" Param=" UserID" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=USerId}" Value="{Var Name=USerId}" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/27/2017 6:20:20 PM" CreatedBy="AVDHOOTN" Guid="318071d1-7b0d-4db6-a7eb-304af2499316" LastUpdate="1/1/0001 12:00:00 AM" Param=" Password" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="{Var Name=Password}" Value="{Var Name=Password}" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActScript>
+    <GingerCore.Actions.ActScript Active="True" ConfigOutputDS="False" Created="10/27/2017 6:21:10 PM" CreatedBy="AVDHOOTN" Description="Script Action" EnableRetryMechanism="False" ExternalID="" Guid="eba27fcc-0827-48f7-9028-958ca7d292fb" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="7f16cc56-7450-4409-ae39-c9eb2c3c4a70" Platform="NA" RetryMechanismInterval="5" ScriptCommand="Script" ScriptInterpreterType="VBS" ScriptName="LaunchCRM_Yash_New.vbs" ScriptPath="C:\Users\avdhootn\Desktop\P1 regression Ginger\P1 regression batch 1\\Documents\Scripts\" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/27/2017 6:21:56 PM" CreatedBy="AVDHOOTN" Guid="2e6be2fa-197a-4970-9e8c-42b8aac6189b" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActScript>
+    <GingerCore.Actions.ActDummy Active="True" ConfigOutputDS="False" Created="10/27/2017 6:22:18 PM" CreatedBy="AVDHOOTN" Description="Wait" EnableRetryMechanism="False" ExternalID="" Guid="293169ac-75b3-4eb6-805d-b53a5e796d7a" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="2" ParentGuid="1c6e79a8-cd2e-439a-9b91-ab733c9cf483" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="20" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/27/2017 6:22:30 PM" CreatedBy="AVDHOOTN" Guid="5f6dca05-bfc0-44b7-9111-3e2594ea821e" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActDummy>
+  </Acts>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="10/27/2017 7:23:03 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="5572f417-c3bb-45f5-a47d-da55c9ba3ede" InitialStringValue="aj1114" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="USerId" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="xx9381" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+    <GingerCore.Variables.VariableString Created="10/27/2017 7:23:14 PM" CreatedBy="AVDHOOTN" CycleCount="0" DiffrentFromOrigin="False" Guid="c450bc83-a39e-4116-a78d-5f334ea5f657" InitialStringValue="aj1114" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="Password" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="xx9381" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

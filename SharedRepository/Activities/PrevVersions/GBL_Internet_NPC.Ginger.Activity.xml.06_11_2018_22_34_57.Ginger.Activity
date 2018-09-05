@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GBL_Internet_NPC" AutomationStatus="Development" Created="1/24/2017 2:32:01 AM" CreatedBy="s02935" Description="Provide" EnableActionsVariablesDependenciesControl="False" ExternalID="" Guid="3d17e16f-2149-45b2-b1b2-d54ecf22f645" LastUpdate="1/5/2018 8:08:31 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="89%" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" ConfigOutputDS="False" Created="1/24/2017 5:39:17 AM" CreatedBy="s02935" Description="Switch Window - AT&amp;T CRM Customer Interaction Manager : Release 34 - csrCRM0AT04cmem101 - Active Form System : ORDERING3" EnableRetryMechanism="False" Guid="37b5fa16-9faf-4db8-a678-9b3bbd8d4f86" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WaitTime="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/24/2017 7:17:20 AM" CreatedBy="s02935" Guid="22acd3af-f820-4d34-930d-29ba05e683a4" LastUpdate="1/1/0001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.ActWindow Active="True" ConfigOutputDS="False" Created="10/17/2016 6:46:35 AM" CreatedBy="SNJADHAV" Description="Check If  Message Exist" EnableRetryMechanism="True" ExternalID="" Guid="3b86a83b-a493-4ab9-8b68-117e00ca04b7" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByTitle" LocateValue="Validation Messages" MaxNumberOfRetries="5" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="1" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="15" WindowActionType="IsExist" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls>
+        <GingerCore.FlowControlLib.FlowControl Active="True" Condition="{Var Name=DialogExist} = False" Created="10/17/2016 6:47:15 AM" CreatedBy="SNJADHAV" FlowControlAction="GoToAction" Guid="e442e3a0-ba2d-4f60-bf1e-aa4da9f02aa2" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Value="0bc4c7ff-be84-4025-91e8-d09c94bfe904#GUID_NAME# - JExplorerBrowserComponent[0]" Version="0" />
+      </FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/17/2016 6:46:46 AM" CreatedBy="SNJADHAV" Guid="70166e26-4de7-41ad-8656-9a23aa5ae7c7" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues>
+        <GingerCore.Actions.ActReturnValue Active="True" Created="10/17/2016 6:47:01 AM" CreatedBy="SNJADHAV" Guid="6de9cd31-6070-4be7-9711-9fedd6583568" LastUpdate="1/1/0001 12:00:00 AM" Param="Actual" ParentGuid="00000000-0000-0000-0000-000000000000" StoreTo="Variable" StoreToValue="DialogExist" Version="0" />
+      </ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActWindow>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/27/2017 12:42:51 PM" CreatedBy="s03022" Description="Click on Validation Messages" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="7d17e192-53f8-4f2a-8bb3-bce0205c2a17" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="/html/body/div[3]/div/div[2]/div/div[2]/div/button/span" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/27/2017 12:42:51 PM" CreatedBy="s03022" Guid="9d48f430-2a55-449b-ae02-f1b1bea3411d" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="a6d84c5f-bdbf-44c7-9b63-6b33109bfddf" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="19ebf89a-c121-407b-a0ae-69c93adbd21c" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActBrowserElement Active="True" ConfigOutputDS="False" ControlAction="InitializeBrowser" Created="1/24/2017 5:40:27 AM" CreatedBy="s02935" Description=" - JExplorerBrowserComponent[0]" EnableRetryMechanism="False" Guid="0bc4c7ff-be84-4025-91e8-d09c94bfe904" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="/javax.swing.JRootPane[0]/null.layeredPane/null.contentPane/javax.swing.JSplitPane[0]/com.amdocs.uif.workspace.desktop.AppDesktopPane[0]/com.amdocs.oms.custom.order.OrderingFrameworkImpl/javax.swing.JRootPane[0]/null.layeredPane/root/javax.swing.JViewport[0]/root/pnlActivityArea/root/pnlWidget/root/browser/com.amdocs.uif.widgets.browser.JExplorerBrowserComponent[0]" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="1/24/2017 5:40:45 AM" CreatedBy="s02935" Guid="4115898f-b76e-4d5b-b3a8-ff8f70a8b21f" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActBrowserElement>
+    <GingerCore.Actions.ActGenElement Active="False" ConfigOutputDS="False" Created="2/2/2017 2:36:13 AM" CreatedBy="s02935" Description="Click CLose Button_Copy" EnableRetryMechanism="False" GenElementAction="Click" Guid="1e5216f7-1c56-480c-8146-b060777109ae" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//*[.='Close']" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="2/2/2017 2:36:24 AM" CreatedBy="s02935" Guid="ce586a5a-4f6d-4f3c-9fd7-608f268fe3a9" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="a223f47b-a0b1-4e00-8e12-d88b8ed9171a" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="265b77a6-8f89-4ee0-8232-7d68c7ba673d" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/2/2017 5:51:15 AM" CreatedBy="s02933" Description="Click AT&amp;T New" EnableRetryMechanism="False" GenElementAction="Click" Guid="23728fec-7900-4576-a5e6-2e087a5609df" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='AT&amp;T']" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="2" WindowsToCapture="DesktopScreen">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="5/2/2017 5:51:21 AM" CreatedBy="s02933" Guid="b9acf6f8-3721-4e30-8c59-270e55d70d10" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="3df583a5-4863-4997-aaf0-e2261979587f" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="d4dedaa8-8358-4c24-9030-f64a334dc69b" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="2/2/2017 2:36:13 AM" CreatedBy="s02935" Description="Click CLose Button" EnableRetryMechanism="True" GenElementAction="Click" Guid="c360c176-4f1b-4c50-80a3-f7a239a4a704" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='Close']" MaxNumberOfRetries="1" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="1" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="True" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="2/2/2017 2:36:24 AM" CreatedBy="s02935" Guid="ce586a5a-4f6d-4f3c-9fd7-608f268fe3a9" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="85273176-4427-487a-826e-425a125fb817" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="d5d85b47-db56-41d2-8827-eda33970a59b" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/2/2017 5:54:14 AM" CreatedBy="s02933" Description="Click Add Internet" EnableRetryMechanism="False" GenElementAction="Click" Guid="e0f8747d-8730-4941-a584-05b68a65fb1c" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='AT&amp;T Internet']/../../../..//*[.='Add']" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="15" WindowsToCapture="DesktopScreen">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="5/2/2017 5:54:34 AM" CreatedBy="s02933" Guid="aa30c01b-8c61-49cf-a6de-3cd7cbad8b43" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="1a9b14c5-1f42-43ae-9c57-ba4cfee1ded5" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="73472075-71e3-46c8-8e61-826d1d5ac01d" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+    <GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="3/14/2017 3:48:45 AM" CreatedBy="s03027" Description="s" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="d612c976-e7e6-43ee-bbff-0b0fb2addb57" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByRelXPath" LocateValue="//td[.='Internet 25/5']/..//input" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="IgnoreFail" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="3/14/2017 3:48:45 AM" CreatedBy="s03027" Guid="b12c186d-a034-4126-bed4-4ba58451f2dd" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="b8a7ca24-da70-4a38-bd5d-0dd301fa8743" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/3/2017 1:42:27 AM" CreatedBy="s03026" Guid="c20554da-a0ff-4b11-8a7e-166c0e9bc82a" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="0" Value="0" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActGenElement>
+  </Acts>
+  <Tags></Tags>
+  <Variables>
+    <GingerCore.Variables.VariableString Created="2/14/2017 3:52:54 AM" CreatedBy="s02935" CycleCount="0" Description="" DiffrentFromOrigin="False" Guid="54ca942b-4307-4ab7-89c6-b2dd0c77c56e" InitialStringValue="Yes" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="DTV SELECTED" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="Yes" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+    <GingerCore.Variables.VariableString Created="8/24/2017 7:07:28 PM" CreatedBy="s03018" CycleCount="0" Description="Variable String" DiffrentFromOrigin="False" Guid="8967fd6a-afed-44ec-8297-e030c25bf598" InitialStringValue="False" LastUpdate="1/1/0001 12:00:00 AM" MappedOutputType="None" Name="DialogExist" ParentGuid="00000000-0000-0000-0000-000000000000" SetAsInputValue="True" SetAsOutputValue="True" Value="False" VarValChanged="False" Version="0">
+      <Tags></Tags>
+    </GingerCore.Variables.VariableString>
+  </Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

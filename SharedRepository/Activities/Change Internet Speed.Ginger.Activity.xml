@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Change Internet Speed" AutomationStatus="Development" Created="11/1/2017 6:21:34 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="d6ae9093-d507-4d21-b63e-22c86e686a4b" LastUpdate="11/1/2017 7:14:47 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="11/1/2017 6:23:48 AM" CreatedBy="AVDHOOTN" Description="Set Internet speed" EnableRetryMechanism="False" Guid="37979707-31ec-4869-b1f3-b370c9a6cf7f" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:pnlHSIABody:hgrd_HSIAGRID01/[name=&quot;colAttr&quot;]:[[name=&quot;colAttr&quot;]:[text=~&quot;1000&quot;]]" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/1/2017 6:23:48 AM" CreatedBy="AVDHOOTN" Guid="adffc91a-bb11-4bfe-931b-97a14862bf06" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Switch to AT&amp;T(New)" AutomationStatus="Development" Created="5/1/2018 6:16:26 PM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" ErrorHandlerMappingType="AllAvailableHandlers" Guid="1b1951c4-ce6a-4d76-aeda-6f4445d5575b" LastUpdate="5/2/2018 1:51:26 PM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="Java Driver" Version="1">
+<Acts>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/1/2018 6:17:36 PM" CreatedBy="AVDHOOTN" Description="Click on AT&amp;T (New)" EnableRetryMechanism="False" ExternalID="" GenElementAction="Click" Guid="2ba98a21-96d1-428a-a8b3-9eb85f43294b" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//span[text()='AT&amp;T']" MaxNumberOfRetries="2" ParentGuid="f5aade32-6dde-4f84-b46e-35388ba34712" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:17:39 PM" CreatedBy="AVDHOOTN" Guid="0ff3b1a5-e1d8-4c30-b647-ad6081e55086" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:17:39 PM" CreatedBy="AVDHOOTN" Guid="2cfac08f-cd54-4e86-8c1e-694efcdb0dbd" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/1/2018 6:17:39 PM" CreatedBy="AVDHOOTN" Guid="ef4da914-9fcf-43fe-a76f-e2d210256c3f" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+<GingerCore.Actions.ActGenElement Active="True" ConfigOutputDS="False" Created="5/2/2018 5:00:16 AM" CreatedBy="AVDHOOTN" Description="Click Close on Validation message" EnableRetryMechanism="True" ExternalID="" GenElementAction="Click" Guid="cc27701c-76b6-451a-867c-085581bc83ed" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByXPath" LocateValue="//*[.='Close']" MaxNumberOfRetries="2" ParentGuid="eead80b7-5bb1-47e0-ab4d-f1582e7f6fb6" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="5" WindowsToCapture="OnlyActiveWindow">
+<DSOutputConfigParams>
+</DSOutputConfigParams>
+
+<FlowControls>
+</FlowControls>
+
+<InputValues>
+<GingerCore.Actions.ActInputValue Created="5/2/2018 5:00:18 AM" CreatedBy="AVDHOOTN" Guid="068e12da-8787-4887-87ff-1ebabfb206e1" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/2/2018 5:00:18 AM" CreatedBy="AVDHOOTN" Guid="610394a3-b1e8-4708-938a-e2c014da72d8" LastUpdate="1/1/0001 12:00:00 AM" Param="Xoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Actions.ActInputValue Created="5/2/2018 5:00:18 AM" CreatedBy="AVDHOOTN" Guid="e62d3131-006d-4b65-94c6-8de3a9138d5f" LastUpdate="1/1/0001 12:00:00 AM" Param="Yoffset" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</InputValues>
+
+<ReturnValues>
+</ReturnValues>
+
+<Tags>
+</Tags>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Actions.ActGenElement>
+</Acts>
+
+<MappedErrorHandlers>
+</MappedErrorHandlers>
+
+<Tags>
+</Tags>
+
+<Variables>
+</Variables>
+
+<VariablesDependencies>
+</VariablesDependencies>
+</GingerCore.Activity>

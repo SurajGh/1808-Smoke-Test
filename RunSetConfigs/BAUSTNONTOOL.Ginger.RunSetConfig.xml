@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Run.RunSetConfig Created="2/21/2018 5:16:13 AM" CreatedBy="AVDHOOTN" Guid="8e53ee7a-edce-4469-b2c0-3b15394db368" LastUpdate="9/5/2018 5:46:48 AM" LastUpdateBy="AVDHOOTN" Name="BAUSTNONTOOL" ParentGuid="00000000-0000-0000-0000-000000000000" RunModeParallel="True" RunWithAnalyzer="True" Version="21">
+<GingerRunners>
+<Ginger.Run.GingerRunner Active="True" Created="3/8/2018 11:51:54 AM" CreatedBy="AVDHOOTN" FilterExecutionByTags="False" Guid="aa866bfc-6503-405a-9a17-13de2aa8ceb3" LastUpdate="1/1/0001 12:00:00 AM" Name="Runner 0" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" UseSpecificEnvironment="False" Version="0">
+<ApplicationAgents>
+<GingerCore.Platforms.ApplicationAgent AgentName="JavaDriver" AppName="MyJavaApp" Created="9/5/2018 5:44:09 AM" CreatedBy="AVDHOOTN" Guid="2cfc97d4-4765-4fd1-a85d-305c64876f69" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.ApplicationAgent AgentName="ASCF" AppName="CRM" Created="9/5/2018 5:44:09 AM" CreatedBy="AVDHOOTN" Guid="893a0832-d610-4f7c-960b-4e5f09547db5" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.ApplicationAgent AgentName="IE" AppName="IE" Created="9/5/2018 5:44:09 AM" CreatedBy="AVDHOOTN" Guid="014c24e2-1914-4da4-aaf9-900b35a2e15d" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="625dad6b-0b7c-45ad-b29e-40719cbec0f8" BusinessFlowInstanceGuid="7df693a3-73f9-4ab8-a6b5-2562b6be328a" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="BAU Smoke Test Non Tool" Created="9/5/2018 5:46:48 AM" CreatedBy="AVDHOOTN" Guid="8c07d374-cec6-43a9-9c3e-69dd4376d106" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+
+<FilterExecutionTags>
+</FilterExecutionTags>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+</RunSetActions>
+
+<Tags>
+</Tags>
+</Ginger.Run.RunSetConfig>

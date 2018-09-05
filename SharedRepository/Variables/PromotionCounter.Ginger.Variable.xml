@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Variables.VariableSequence Created="3/23/2016 5:40:08 PM" CreatedBy="s02968" CurrentValueIndex="0" CycleCount="0" Description="Variable Sequence" DiffrentFromOrigin="False" Guid="f086b7c1-53cc-4500-b202-c1179f5890c1" Interval="1" IsInteger="False" LastUpdate="3/23/2016 5:40:36 PM" LastUpdateBy="s02968" Max="3" Min="1" Name="PromotionCounter" ParentGuid="00000000-0000-0000-0000-000000000000" Value="1" Version="1" />

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.7.0.0-->
+<Ginger.Run.RunSetConfig Created="2/21/2018 5:10:11 AM" CreatedBy="AVDHOOTN" Guid="6fe02547-f3e0-4937-9ebd-7364fc909004" LastUpdate="9/5/2018 5:49:19 AM" LastUpdateBy="AVDHOOTN" Name="DTVSTTOOL" ParentGuid="00000000-0000-0000-0000-000000000000" RunModeParallel="True" RunWithAnalyzer="True" Version="31">
+<GingerRunners>
+<Ginger.Run.GingerRunner Active="True" Created="2/21/2018 5:10:11 AM" CreatedBy="AVDHOOTN" FilterExecutionByTags="False" Guid="25a47705-5bdf-407b-b4ee-6026d7530303" LastUpdate="1/1/0001 12:00:00 AM" Name="Ginger - 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall" Selected="False" UseSpecificEnvironment="False" Version="0">
+<ApplicationAgents>
+<GingerCore.Platforms.ApplicationAgent AgentName="JavaDriver" AppName="MyJavaApp" Created="9/5/2018 5:49:06 AM" CreatedBy="AVDHOOTN" Guid="a72dc222-4b69-4f39-bc2c-b005049ce9bb" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.ApplicationAgent AgentName="ASCF" AppName="CRM" Created="9/5/2018 5:49:06 AM" CreatedBy="AVDHOOTN" Guid="66d75dd2-769d-4b98-9b15-4aeba66f9a60" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<GingerCore.Platforms.ApplicationAgent AgentName="IE" AppName="IE" Created="9/5/2018 5:49:06 AM" CreatedBy="AVDHOOTN" Guid="a63d1d89-01d7-4e94-bad0-8da4e73a5606" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<Ginger.Run.BusinessFlowRun BusinessFlowGuid="496f7176-ddd1-4ade-ba50-85826a45c80d" BusinessFlowInstanceGuid="ee43727f-20ba-4b3c-b826-eb2ff4f143ad" BusinessFlowIsActive="True" BusinessFlowIsMandatory="False" BusinessFlowName="DTV Smoke Test" Created="9/5/2018 5:49:19 AM" CreatedBy="AVDHOOTN" Guid="2d47d96c-9638-4cc7-9608-59491b22eb64" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0">
+<BFFlowControls>
+</BFFlowControls>
+
+<BusinessFlowCustomizedRunVariables>
+</BusinessFlowCustomizedRunVariables>
+</Ginger.Run.BusinessFlowRun>
+</BusinessFlowsRunList>
+
+<FilterExecutionTags>
+</FilterExecutionTags>
+</Ginger.Run.GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+</RunSetActions>
+
+<Tags>
+</Tags>
+</Ginger.Run.RunSetConfig>

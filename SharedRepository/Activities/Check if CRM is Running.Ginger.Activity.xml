@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Check if CRM is Running" AutomationStatus="Development" Created="1/3/2017 5:11:37 PM" CreatedBy="s03018" EnableActionsVariablesDependenciesControl="False" Guid="efc079f7-d677-4757-b525-213c0762fd43" LastUpdate="1/3/2017 5:27:01 PM" LastUpdateBy="s03018" Mandatory="True" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyJavaApp" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActScript Active="True" Created="1/3/2017 5:12:15 PM" CreatedBy="s03018" Description="Script Action" EnableRetryMechanism="False" Guid="47551e20-4f07-4b70-ad37-ea2fdbf77849" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="NA" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" ScriptCommand="Script" ScriptInterpreterType="VBS" ScriptName="TerminateCRM.vbs" ScriptPath="A:\Automation\V1610\Ginger Workspace\JavaDriver_PVT_Shweta\\Documents\Scripts\" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues></InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActScript>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

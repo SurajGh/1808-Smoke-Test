@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="GblCreateContactAddressValidation" AutomationStatus="Development" Created="11/17/2016 5:58:45 AM" CreatedBy="KUSHS" Elapsed="2130" EnableActionsVariablesDependenciesControl="False" Guid="8287e250-cd88-42de-8ceb-5770b2b96d06" LastUpdate="11/25/2016 6:16:11 AM" LastUpdateBy="SNJADHAV" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" Status="Pass" TargetApplication="MyJavaApp" Version="2">
+  <Acts>
+    <GingerCore.Actions.ActSwitchWindow Active="True" Created="11/17/2016 5:58:45 AM" CreatedBy="KUSHS" Description="Switch Window - AT&amp;T U-verse CRM Customer Interaction Manager : Release 32 - csrCRM0BT04cmem201 - Active Form System : CRM" EnableRetryMechanism="False" Guid="6cbbe1e4-c5e0-4b21-9b9b-27947360940e" LastUpdate="1/1/2001 12:00:00 AM" LocateBy="ByTitle" LocateValue="AT&amp;T CRM Customer Interaction Manager" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitTime="30" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:58:45 AM" CreatedBy="KUSHS" Guid="218ecf6a-0b4d-43cb-9a79-74e057902c39" LastUpdate="1/1/2001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+        <GingerCore.Actions.ActInputValue Created="10/10/2016 7:07:58 AM" CreatedBy="SNJADHAV" Guid="2cab6bda-a2d5-4da5-b051-fa528fc36b21" LastUpdate="1/1/2001 12:00:00 AM" Param="WaitTime" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="30" Value="30" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActSwitchWindow>
+    <GingerCore.Actions.Java.ActJavaElement Active="True" ControlAction="Click" Created="11/17/2016 5:58:45 AM" CreatedBy="KUSHS" Description="Click Button btnNext" EnableRetryMechanism="False" Guid="f557488b-e583-48f9-a173-08e1bb87e204" LastUpdate="1/1/2001 12:00:00 AM" LocateBy="ByName" LocateValue="btnNext" MaxNumberOfRetries="0" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="0" StatusConverter="None" TakeScreenShot="False" Version="0" Wait="0" WaitforIdle="Medium" WindowsToCapture="OnlyActiveWindow">
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="11/17/2016 5:58:45 AM" CreatedBy="KUSHS" Guid="631b2608-861e-492e-930b-712434a19d64" LastUpdate="1/1/2001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" StoreToVariable="" Value="" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.Java.ActJavaElement>
+  </Acts>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>

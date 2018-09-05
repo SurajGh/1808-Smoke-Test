@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e41f4e07-1a41-4f69-8fe8-017a021634b1" ItemType="ProjEnvironment" CreatedBy="avdhootn" Created="201808201206" GingerVersion="2.7.0.0" Version="3" LastUpdateBy="AVDHOOTN" LastUpdate="201809050551" />
+<ProjEnvironment Active="False" Created="10/26/2017 9:31:13 AM" CreatedBy="AVDHOOTN" Guid="e41f4e07-1a41-4f69-8fe8-017a021634b1" LastUpdate="7/24/2018 1:21:13 PM" LastUpdateBy="s06125" Name="MPIE" ParentGuid="00000000-0000-0000-0000-000000000000" Version="54">
+<Applications>
+<EnvApplication Active="True" Guid="81f67670-3e3c-4e32-bd0e-b74b9cf0132f" Name="OMS" ParentGuid="00000000-0000-0000-0000-000000000000" Url="https://CRM0AT04.stage.att.com/smartclient/CRM/LaunchCrm.jnlp">
+<Dbs>
+<Database ConnectionString="Data Source=(description=(address=(protocol=tcp)(host=t1oms5c1.sldc.sbc.com)(port=1521))(connect_data=(server=dedicated)(service_name=t1oms4d8_1_2.db.att.com)(failover_mode=(type=select)(method=basic)(retries=180)(delay=5))));User Id=OMS1AT04ro;Password=readonly1u" Created="10/27/2017 8:35:49 AM" CreatedBy="AVDHOOTN" DBType="Oracle" DBVer="" Description="OMS1BT04" Guid="a3a34e29-2134-42f4-aae4-b60ab8881ee1" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS1" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Database ConnectionString="Data Source=(description=(address=(protocol=tcp)(host=t1oms5c1.sldc.sbc.com)(port=1521))(connect_data=(server=dedicated)(service_name=t1oms4d8_2_1.db.att.com)(failover_mode=(type=select)(method=basic)(retries=180)(delay=5))));User Id=OMS2AT04ro;Password=Its1uOnly" Created="10/27/2017 8:36:19 AM" CreatedBy="AVDHOOTN" DBType="Oracle" DBVer="" Description="OMS2BT04" Guid="b0ce279a-ec24-46fc-9868-d0d175e6095b" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS2" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+<Database ConnectionString="Data Source=(description=(address=(protocol=tcp)(host=t1oms4c1.sldc.sbc.com)(port=1521))(connect_data=(server=dedicated)(service_name=t1oms4d7_1_2.db.att.com)(failover_mode=(type=select)(method=basic)(retries=180)(delay=5))));User Id=OMS3AT05ro;Password=readonly4u" Created="10/27/2017 8:37:08 AM" CreatedBy="AVDHOOTN" DBType="Oracle" DBVer="" Description="OMS3BT05" Guid="2933fe7b-9d4c-4239-8b25-40d3ce3ead82" KeepConnectionOpen="True" LastUpdate="1/1/0001 12:00:00 AM" Name="OMS3" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+</Dbs>
+
+<GeneralParams>
+<GeneralParam Encrypt="False" Guid="a6d4f92d-000f-42ce-9e36-04f93406e5f4" Name="Env" ParentGuid="00000000-0000-0000-0000-000000000000" Value="MPIE" />
+<GeneralParam Encrypt="False" Guid="f8a752a5-3ce7-4d76-b9d2-e10dbc501026" Name="Env2" ParentGuid="00000000-0000-0000-0000-000000000000" Value="MPIE" />
+</GeneralParams>
+</EnvApplication>
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>

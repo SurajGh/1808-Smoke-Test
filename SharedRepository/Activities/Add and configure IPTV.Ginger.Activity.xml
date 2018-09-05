@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ginger Repository Item created with version: 2.6.0.0-->
+<GingerCore.Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivityName="Add and configure IPTV" AutomationStatus="Development" Created="10/28/2017 7:28:13 AM" CreatedBy="AVDHOOTN" EnableActionsVariablesDependenciesControl="False" Guid="07d4377b-94db-46ef-a365-1e4017763a65" LastUpdate="11/1/2017 7:14:33 AM" LastUpdateBy="AVDHOOTN" Mandatory="False" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="CRM" Version="1">
+  <Acts>
+    <GingerCore.Actions.ActASCFControl Active="True" ConfigOutputDS="False" ControlAction="Click" ControlProperty="NA" Created="10/28/2017 7:28:45 AM" CreatedBy="AVDHOOTN" Description="Add IPTV" EnableRetryMechanism="False" Guid="52ff1f8d-c809-42c7-b510-c6d1e53746ce" LastUpdate="1/1/0001 12:00:00 AM" LocateBy="ByName" LocateValue="pnlActivityArea:btnAddTV" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" SupportSimulation="False" TakeScreenShot="False" Version="0" Wait="10" WindowsToCapture="OnlyActiveWindow">
+      <DSOutputConfigParams></DSOutputConfigParams>
+      <FlowControls></FlowControls>
+      <InputValues>
+        <GingerCore.Actions.ActInputValue Created="10/28/2017 7:28:45 AM" CreatedBy="AVDHOOTN" Guid="970da256-6cf4-433f-8e5f-55843ce14fc9" LastUpdate="1/1/0001 12:00:00 AM" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Version="0" />
+      </InputValues>
+      <ReturnValues></ReturnValues>
+      <Tags></Tags>
+      <VariablesDependencies></VariablesDependencies>
+    </GingerCore.Actions.ActASCFControl>
+  </Acts>
+  <Tags></Tags>
+  <Variables></Variables>
+  <VariablesDependencies></VariablesDependencies>
+</GingerCore.Activity>
